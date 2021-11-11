@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+
+  --cool-yellow: #ffbb00;
+  --gray: #8a8a8a;
+  --just-black: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
