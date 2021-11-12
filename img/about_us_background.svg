@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="567" height="557" viewBox="0 0 567 557">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1487fd"/>
+      <stop offset="1" stop-color="#42a0ff"/>
+    </linearGradient>
+  </defs>
+  <g id="bg" transform="translate(-89.5 -1169.557)">
+    <g id="Ellipse_57" data-name="Ellipse 57" transform="translate(99.5 1169.557)" fill="#fff" stroke="#ccc" stroke-width="1" opacity="0.3">
+      <circle cx="278.5" cy="278.5" r="278.5" stroke="none"/>
+      <circle cx="278.5" cy="278.5" r="278" fill="none"/>
+    </g>
+    <g id="Ellipse_58" data-name="Ellipse 58" transform="translate(187.5 1257.557)" fill="#fff" stroke="#ccc" stroke-width="1" opacity="0.3">
+      <circle cx="190.5" cy="190.5" r="190.5" stroke="none"/>
+      <circle cx="190.5" cy="190.5" r="190" fill="none"/>
+    </g>
+    <g id="Group_4462" data-name="Group 4462" transform="translate(609.039 1314.178)">
+      <g id="Ellipse_60" data-name="Ellipse 60" transform="translate(10.461 10.379)" fill="none" stroke="#e8e8e8" stroke-width="1">
+        <circle cx="13" cy="13" r="13" stroke="none"/>
+        <circle cx="13" cy="13" r="12.5" fill="none"/>
+      </g>
+      <g id="Ellipse_61" data-name="Ellipse 61" transform="translate(0.461 0.379)" fill="none" stroke="#e8e8e8" stroke-width="1">
+        <circle cx="23.5" cy="23.5" r="23.5" stroke="none"/>
+        <circle cx="23.5" cy="23.5" r="23" fill="none"/>
+      </g>
+      <circle id="Ellipse_59" data-name="Ellipse 59" cx="5" cy="5" r="5" transform="translate(18.461 18.379)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_4463" data-name="Group 4463" transform="translate(90 1507.787)">
+      <g id="Ellipse_60-2" data-name="Ellipse 60" transform="translate(10.5 10.77)" fill="none" stroke="#e8e8e8" stroke-width="1">
+        <ellipse cx="13" cy="12.5" rx="13" ry="12.5" stroke="none"/>
+        <ellipse cx="13" cy="12.5" rx="12.5" ry="12" fill="none"/>
+      </g>
+      <g id="Ellipse_61-2" data-name="Ellipse 61" transform="translate(-0.5 -0.23)" fill="none" stroke="#e8e8e8" stroke-width="1">
+        <circle cx="23.5" cy="23.5" r="23.5" stroke="none"/>
+        <circle cx="23.5" cy="23.5" r="23" fill="none"/>
+      </g>
+      <ellipse id="Ellipse_59-2" data-name="Ellipse 59" cx="5" cy="5.5" rx="5" ry="5.5" transform="translate(18.5 17.77)" fill="#fb0"/>
+    </g>
+  </g>
+</svg>
