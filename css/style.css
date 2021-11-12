@@ -16,3 +16,12 @@ html,
 body {
   font-family: "Roboto", sans-serif;
 }
+.ec-logo {
+  width: 68%; /* 1309px/1920px */
+  margin-left: 294px;
+  padding: 9.5rem 0;
+}
+.ec-logo img {
+  margin-left: 119px;
+  
+}
