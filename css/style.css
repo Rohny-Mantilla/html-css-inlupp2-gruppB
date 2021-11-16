@@ -23,5 +23,26 @@ body {
 }
 .ec-logo img {
   margin-left: 119px;
-  
 }
+
+/* carousle -- start */
+.app_screen-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.carousel_container {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.carousel_container img {
+  height: 380px;
+}
+/* carousle -- end */
