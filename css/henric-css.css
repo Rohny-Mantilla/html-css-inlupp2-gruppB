@@ -44,7 +44,6 @@ justify-content: space-between;
 .banner_buttons{
     display: flex;
     gap: 25px;
-
 }
 /* Fixar widht samt heighten på den två knapparna i Bannern, fixar också färg, tar bort bordern samt rundar kanterna*/
 .banner_buttons button{
@@ -61,27 +60,26 @@ justify-content: space-between;
     background-color: white;
     border: none;
     border-radius: 12px;
-
 }
+
+/* Fixar så att googleplay och apple iconen blir mer centrerad */
 .banner_buttons img{
 
 
     padding-top: 7px;
 }
+
+/* Starplar texten på varandra vi flex column */
 .button_text{
     display: flex;
     flex-direction: column;
-    
-   
-    
 }
+/* Fixar färg, font storklek samt gör att att texten börjar direkt till vänster  */
 .banner_buttons #top_text{
     font-size: 12px;
     text-align: left;
     margin: 0px;
     color: #6B6B6B;
-    
-
 }
 .banner_buttons #bottom_text{
     font-size: 22px;
@@ -89,9 +87,6 @@ justify-content: space-between;
     text-align: left;
     margin: 0px;
     color: #111111;
-    
-    
-
 }
 
 
