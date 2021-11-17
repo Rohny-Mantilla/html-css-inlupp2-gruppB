@@ -1,7 +1,56 @@
-
-
+/* GENERAL */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html, body {
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-primary {
+    background-color: #ffbb00;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 15%;
+    outline: none;
+}
+.btn-secondary {
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 15%;
+    outline: none;
+}
+.mb {
+    margin-bottom: 2rem;
+}
+/* TOP-NAV START */
+.top-nav a, .nav-link {
+    color: grey;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 1rem;
+}
+/* TOP-NAV END */
+/* NAV-BAR START */
+.section-btn {
+    display: flex;
+    align-items: center;
+}
+.watch-video img{
+    margin-right: .6rem;
+    margin-left: 1rem;
+}
+
+.bg-header {
+    background: url(img/rektangle_1.svg);
+    background-repeat: no-repeat;
 }
