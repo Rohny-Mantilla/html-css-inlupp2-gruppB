@@ -9,6 +9,8 @@ width: 50%;
 display: flex;
 justify-content: space-between;
 }
+/* Plaserar Main textrutan på rätt ställe samt lägger alla elemnt i en column.*/
+/* Lägger också till 25px mellanrum mellan de olika elementen */
 .banner_information{
 
     position: absolute;
@@ -20,6 +22,7 @@ justify-content: space-between;
     gap: 25px;
     width: 730px;
 }
+/* Ändrar positionen på de bundled_phones image*/
 #banner_bundled_phones{
 
     position: absolute;
@@ -81,6 +84,7 @@ justify-content: space-between;
     margin: 0px;
     color: #6B6B6B;
 }
+/* Fixar färg,gör texten bold, font storklek samt gör att att texten börjar direkt till vänster  */
 .banner_buttons #bottom_text{
     font-size: 22px;
     font-weight: bold;
@@ -88,8 +92,5 @@ justify-content: space-between;
     margin: 0px;
     color: #111111;
 }
-
-
-
 
 /* SLUT BANNER Henric */
