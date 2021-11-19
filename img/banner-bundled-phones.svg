@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="508" height="496" viewBox="0 0 508 496">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.564" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1487fd"/>
+      <stop offset="1" stop-color="#42a0ff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1912" data-name="Rectangle 1912" width="508" height="496" transform="translate(1101 367)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="1" stop-color="#ececec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f3f3f3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f3f3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-1101 -367)" clip-path="url(#clip-path)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-47 121)">
+      <g id="iPhone" transform="translate(1411.388 312.07)">
+        <path id="Bezel" d="M27.257,0H208.781a27.257,27.257,0,0,1,27.258,27.257v434.96a27.257,27.257,0,0,1-27.258,27.257H27.257A27.257,27.257,0,0,1,0,462.217V27.257A27.257,27.257,0,0,1,27.257,0Z" transform="translate(8.915 6.474)" fill="url(#linear-gradient-2)"/>
+        <path id="Glass" d="M25.773,0H207.945a25.707,25.707,0,0,1,25.773,25.64V461.515a25.707,25.707,0,0,1-25.773,25.64H25.773A25.707,25.707,0,0,1,0,461.515V25.64A25.707,25.707,0,0,1,25.773,0Z" transform="translate(10.075 7.634)" fill="url(#linear-gradient-3)"/>
+        <g id="Camera" transform="translate(152.548 16.519)">
+          <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="4.089" cy="4.089" rx="4.089" ry="4.089" transform="translate(0 0)" fill="url(#linear-gradient-4)"/>
+          <circle id="Ellipse_8" data-name="Ellipse 8" cx="3.68" cy="3.68" r="3.68" transform="translate(0 0)" fill="url(#linear-gradient-3)"/>
+          <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="2.862" cy="2.862" rx="2.862" ry="2.862" transform="translate(0.818 0.818)" fill="#f3f3f3"/>
+          <circle id="Ellipse_9" data-name="Ellipse 9" cx="0.818" cy="0.818" r="0.818" transform="translate(3.271 0.818)" fill="#fff"/>
+        </g>
+        <path id="Ear_Piece" data-name="Ear Piece" d="M2.53.5h31.9a2.03,2.03,0,0,1,0,4.06H2.53A2.03,2.03,0,1,1,2.53.5Z" transform="translate(108.456 18.443)" fill="#f3f3f3" stroke="#f9f8f8" stroke-width="1"/>
+        <path id="Screen" d="M195.442,470.916H22.038A22.063,22.063,0,0,1,0,448.878V22.038A22.063,22.063,0,0,1,22.038,0H45.388a3.95,3.95,0,0,1,3.033,3c.1.42.2.969.31,1.6.222,1.223.5,2.74.908,4.273.531,1.983,2.874,8.46,10.746,8.541,2.97.031,21.483.037,36.492.037,27.609,0,59.288-.022,60.77-.037,7.872-.081,10.215-6.558,10.746-8.541.411-1.536.687-3.055.909-4.276.116-.639.215-1.184.31-1.6a3.823,3.823,0,0,1,3.006-3h22.822A22.063,22.063,0,0,1,217.48,22.038v426.84A22.063,22.063,0,0,1,195.442,470.916Z" transform="translate(18.194 15.753)" fill="#e3e3e3"/>
+        <path id="Image_Place_here" data-name="Image Place here" d="M195.442,470.916H22.038A22.063,22.063,0,0,1,0,448.878V22.038A22.063,22.063,0,0,1,22.038,0H45.388a3.95,3.95,0,0,1,3.033,3c.1.42.2.969.31,1.6.222,1.223.5,2.74.908,4.273.531,1.983,2.874,8.46,10.746,8.541,2.97.031,21.483.037,36.492.037,27.609,0,59.288-.022,60.77-.037,7.872-.081,10.215-6.558,10.746-8.541.411-1.536.687-3.055.909-4.276.116-.639.215-1.184.31-1.6a3.823,3.823,0,0,1,3.006-3h22.822A22.063,22.063,0,0,1,217.48,22.038v426.84A22.063,22.063,0,0,1,195.442,470.916Z" transform="translate(18.194 15.753)" fill="#e3e3e3"/>
+        <path id="Home" d="M1.45,0H73.943a1.45,1.45,0,1,1,0,2.9H1.45a1.45,1.45,0,1,1,0-2.9Z" transform="translate(89.527 476.811)" fill="#e2e2e2"/>
+      </g>
+      <g id="iPhone-2" data-name="iPhone" transform="translate(1139.388 312.07)">
+        <path id="Bezel-2" data-name="Bezel" d="M27.257,0H208.781a27.257,27.257,0,0,1,27.258,27.257v434.96a27.257,27.257,0,0,1-27.258,27.257H27.257A27.257,27.257,0,0,1,0,462.217V27.257A27.257,27.257,0,0,1,27.257,0Z" transform="translate(8.915 6.474)" fill="url(#linear-gradient-2)"/>
+        <path id="Glass-2" data-name="Glass" d="M25.773,0H207.945a25.707,25.707,0,0,1,25.773,25.64V461.515a25.707,25.707,0,0,1-25.773,25.64H25.773A25.707,25.707,0,0,1,0,461.515V25.64A25.707,25.707,0,0,1,25.773,0Z" transform="translate(10.075 7.634)" fill="url(#linear-gradient-3)"/>
+        <g id="Camera-2" data-name="Camera" transform="translate(152.548 16.519)">
+          <ellipse id="Ellipse_7-2" data-name="Ellipse 7" cx="4.089" cy="4.089" rx="4.089" ry="4.089" transform="translate(0 0)" fill="url(#linear-gradient-4)"/>
+          <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="3.68" cy="3.68" r="3.68" transform="translate(0 0)" fill="url(#linear-gradient-3)"/>
+          <ellipse id="Ellipse_10-2" data-name="Ellipse 10" cx="2.862" cy="2.862" rx="2.862" ry="2.862" transform="translate(0.818 0.818)" fill="#f3f3f3"/>
+          <circle id="Ellipse_9-2" data-name="Ellipse 9" cx="0.818" cy="0.818" r="0.818" transform="translate(3.271 0.818)" fill="#fff"/>
+        </g>
+        <path id="Ear_Piece-2" data-name="Ear Piece" d="M2.53.5h31.9a2.03,2.03,0,0,1,0,4.06H2.53A2.03,2.03,0,1,1,2.53.5Z" transform="translate(108.456 18.443)" fill="#f3f3f3" stroke="#f9f8f8" stroke-width="1"/>
+        <path id="Screen-2" data-name="Screen" d="M195.442,470.916H22.038A22.063,22.063,0,0,1,0,448.878V22.038A22.063,22.063,0,0,1,22.038,0H45.388a3.95,3.95,0,0,1,3.033,3c.1.42.2.969.31,1.6.222,1.223.5,2.74.908,4.273.531,1.983,2.874,8.46,10.746,8.541,2.97.031,21.483.037,36.492.037,27.609,0,59.288-.022,60.77-.037,7.872-.081,10.215-6.558,10.746-8.541.411-1.536.687-3.055.909-4.276.116-.639.215-1.184.31-1.6a3.823,3.823,0,0,1,3.006-3h22.822A22.063,22.063,0,0,1,217.48,22.038v426.84A22.063,22.063,0,0,1,195.442,470.916Z" transform="translate(18.194 15.753)" fill="#e3e3e3"/>
+        <path id="Image_Place_here-2" data-name="Image Place here" d="M195.442,470.916H22.038A22.063,22.063,0,0,1,0,448.878V22.038A22.063,22.063,0,0,1,22.038,0H45.388a3.95,3.95,0,0,1,3.033,3c.1.42.2.969.31,1.6.222,1.223.5,2.74.908,4.273.531,1.983,2.874,8.46,10.746,8.541,2.97.031,21.483.037,36.492.037,27.609,0,59.288-.022,60.77-.037,7.872-.081,10.215-6.558,10.746-8.541.411-1.536.687-3.055.909-4.276.116-.639.215-1.184.31-1.6a3.823,3.823,0,0,1,3.006-3h22.822A22.063,22.063,0,0,1,217.48,22.038v426.84A22.063,22.063,0,0,1,195.442,470.916Z" transform="translate(18.194 15.753)" fill="#e3e3e3"/>
+        <path id="Home-2" data-name="Home" d="M1.45,0H73.943a1.45,1.45,0,1,1,0,2.9H1.45a1.45,1.45,0,1,1,0-2.9Z" transform="translate(89.527 476.811)" fill="#e2e2e2"/>
+      </g>
+      <g id="iPhone-3" data-name="iPhone" transform="translate(1257.085 257.525)">
+        <path id="Bezel-3" data-name="Bezel" d="M33.332,0h221.98a33.332,33.332,0,0,1,33.332,33.332v531.9a33.332,33.332,0,0,1-33.332,33.332H33.332A33.332,33.332,0,0,1,0,565.233V33.332A33.332,33.332,0,0,1,33.332,0Z" transform="translate(8.915 6.474)" fill="url(#linear-gradient-2)"/>
+        <path id="Glass-3" data-name="Glass" d="M31.518,0H254.29a31.436,31.436,0,0,1,31.518,31.354v533.02a31.436,31.436,0,0,1-31.518,31.354H31.518A31.436,31.436,0,0,1,0,564.374V31.354A31.436,31.436,0,0,1,31.518,0Z" transform="translate(10.333 7.893)" fill="url(#linear-gradient-3)"/>
+        <g id="Camera-3" data-name="Camera" transform="translate(184.19 18.327)">
+          <circle id="Ellipse_7-3" data-name="Ellipse 7" cx="5" cy="5" r="5" transform="translate(0.369 0.43)" fill="url(#linear-gradient-4)"/>
+          <ellipse id="Ellipse_8-3" data-name="Ellipse 8" cx="4.5" cy="5" rx="4.5" ry="5" transform="translate(0.369 0.43)" fill="url(#linear-gradient-3)"/>
+          <circle id="Ellipse_10-3" data-name="Ellipse 10" cx="3.5" cy="3.5" r="3.5" transform="translate(1.369 1.43)" fill="#f3f3f3"/>
+          <circle id="Ellipse_9-3" data-name="Ellipse 9" cx="1" cy="1" r="1" transform="translate(4.369 1.43)" fill="#fff"/>
+        </g>
+        <path id="Ear_Piece-3" data-name="Ear Piece" d="M2.982.5H41.988a2.482,2.482,0,0,1,0,4.964H2.982A2.482,2.482,0,0,1,2.982.5Z" transform="translate(130.752 21.222)" fill="#f3f3f3" stroke="#f9f8f8" stroke-width="1"/>
+        <path id="Screen-3" data-name="Screen" d="M239,575.871H26.949A26.98,26.98,0,0,1,0,548.921V26.95A26.98,26.98,0,0,1,26.949,0H55.5a4.831,4.831,0,0,1,3.709,3.667c.117.513.239,1.185.38,1.962.272,1.5.609,3.351,1.111,5.225C61.352,13.279,64.218,21.2,73.845,21.3c3.631.037,26.271.045,44.625.045,33.762,0,72.5-.027,74.314-.045,9.627-.1,12.492-8.02,13.141-10.445.5-1.879.84-3.736,1.112-5.229.142-.781.263-1.448.379-1.958A4.675,4.675,0,0,1,211.091,0H239A26.98,26.98,0,0,1,265.95,26.95V548.921A26.98,26.98,0,0,1,239,575.871Z" transform="translate(20.262 17.822)" fill="#e3e3e3"/>
+        <path id="Image_Place_here-3" data-name="Image Place here" d="M239,575.871H26.949A26.98,26.98,0,0,1,0,548.921V26.95A26.98,26.98,0,0,1,26.949,0H55.5a4.831,4.831,0,0,1,3.709,3.667c.117.513.239,1.185.38,1.962.272,1.5.609,3.351,1.111,5.225C61.352,13.279,64.218,21.2,73.845,21.3c3.631.037,26.271.045,44.625.045,33.762,0,72.5-.027,74.314-.045,9.627-.1,12.492-8.02,13.141-10.445.5-1.879.84-3.736,1.112-5.229.142-.781.263-1.448.379-1.958A4.675,4.675,0,0,1,211.091,0H239A26.98,26.98,0,0,1,265.95,26.95V548.921A26.98,26.98,0,0,1,239,575.871Z" transform="translate(20.262 17.822)" fill="#e3e3e3"/>
+        <path id="Home-3" data-name="Home" d="M1.773,0h88.65a1.773,1.773,0,0,1,0,3.546H1.773A1.773,1.773,0,1,1,1.773,0Z" transform="translate(107.494 581.636)" fill="#e2e2e2"/>
+      </g>
+    </g>
+  </g>
+</svg>
