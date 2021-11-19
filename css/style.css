@@ -24,23 +24,23 @@ body {
 /* END --EC-Logo -- Magnus Ljung*/
 
 /* START --About Us-- Magnus Ljung*/
-.About-Us {
+#About-Us {
   margin: 8rem 0;
 }
 .about-bg {
-  
+  background-image: url(/img/bg-about-us.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
 }
-.text-wrapper {
-  
-  
-}
-.head {
+.about-head {
   display: inline-block;
   background-color: #ffbb0026;
   padding: 0.4rem 1rem;
   border-radius: 7px;
 }
-.head p {
+.about-head p {
   margin: 0;
   font-size: 14px;
   color: #ffbb00;
@@ -50,6 +50,7 @@ body {
   margin-top: 1.2rem;
   font-size: 40px;
   color: #333333;
+  /* Roboto BLACK saknas */
 }
 .about-text p {
   margin: 0;
@@ -85,11 +86,8 @@ body {
   font-weight: 700;
   color: #111;
 } 
-
-
-
-
 /* END --About Us-- Magnus Ljung */
+
 
 /* carousle -- start */
 .app_screen-content {
