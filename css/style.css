@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 .button {
   padding: 1rem 2rem;
@@ -48,13 +49,11 @@ body {
 .bg-header {
   background-image: url(../img/rektangle_1.svg);
   background-repeat: no-repeat;
-  background-size: 300vh;
-  background-position-y: 110%;
+  /* background-size: 300vh; */
+  background-position-y: 92%;
   background-position-x: 30%;
 }
 /* Navbar general */
-
-
 
 /* START --EC-Logo -- Magnus Ljung */
 
@@ -90,7 +89,7 @@ body {
   margin-top: 1.2rem;
   font-size: 40px;
   color: #333333;
-  /* Roboto BLACK saknas */
+  font-weight: 900;
 }
 .about-text p {
   margin: 0;
@@ -125,9 +124,8 @@ body {
   font-size: 22px;
   font-weight: 700;
   color: #111;
-} 
+}
 /* END --About Us-- Magnus Ljung */
-
 
 /* TOP-NAV START */
 .top-nav {
@@ -155,7 +153,7 @@ body {
 }
 /* TOP-NAV END */
 /* NAVBAR START */
-.navbar {
+.nav-bar {
   color: #ffffff;
 }
 .section-btn {
@@ -241,43 +239,40 @@ footer {
   text-align: center;
   color: #fff;
   padding: 20px;
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
-.footer-1{
-background-image: url("../img/Bg.svg");
-justify-content: flex-end;
-align-items: center;
-list-style: none;
-margin-top: 8rem;
-padding-top: 8rem;
-padding: 2rem;
-color:#fff;
+.footer-1 {
+  background-image: url("../img/Bg.svg");
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 2rem;
+  color: #fff;
 }
 .logo {
-margin: auto;
-padding: 0 auto .5rem;
+  margin: auto;
+  padding: 0 auto 0.5rem;
 }
-.content {
-display: flex;
-justify-content: center;
-margin: 1rem auto 1rem;
-list-style: none;
+.footer_content {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto 1rem;
+  list-style: none;
 }
-.content li {
-align-items: center;
-font-size: 16px;
-font-weight: bold;
+.footer_content li {
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
 }
-.content a {
-color: #fff;
-text-decoration: none;
-grid-column: 7px;
-padding: 18px 20px;
+.footer_content a {
+  color: #fff;
+  text-decoration: none;
+  grid-column: 7px;
+  padding: 18px 20px;
 }
 
-.sociala-medier {
-margin: 0;
-padding: 1rem auto 0rem
+.footer_content {
+  margin: 0;
+  padding: 1rem auto 0rem;
 }
