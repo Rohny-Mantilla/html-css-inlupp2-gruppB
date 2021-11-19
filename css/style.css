@@ -33,13 +33,13 @@ body {
 }
 .btn-orange {
   background-color: #ffbb00;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 2px solid transparent;
 }
 .btn-transparent {
   background-color: transparent;
-  border: 2px solid #FFFFFF;
-  color: #FFFFFF;
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }
 .mb {
   margin-bottom: 2rem;
@@ -66,36 +66,37 @@ body {
 .top-nav {
   padding-top: 2rem;
 }
-.top-nav a, .nav-link {
-  color: #FFFFFF;
+.top-nav a,
+.nav-link {
+  color: #ffffff;
   text-decoration: none;
   list-style: none;
-  padding: .7rem;
+  padding: 0.7rem;
   display: inline-block;
   position: relative;
 }
-.nav-link a:hover{
+.nav-link a:hover {
   color: orange;
 }
 .nav-link:hover::after {
-  content: '';
+  content: "";
   border-bottom: 2px solid orange;
   position: absolute;
   left: 1rem;
   right: 1.5rem;
-  bottom: .7rem;
+  bottom: 0.7rem;
 }
 /* TOP-NAV END */
 /* NAVBAR START */
 .navbar {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section-btn {
   display: flex;
   align-items: center;
 }
-.watch-video img{
-  margin: 0 .6rem 0 1rem;
+.watch-video img {
+  margin: 0 0.6rem 0 1rem;
 }
 .mobile {
   height: 35rem;
