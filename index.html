@@ -19,23 +19,25 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/henric-css.css">
   </head>
   <body>
+
 
     <div class="bg-header">
 
       <!-- TOP-NAV START -->
       <nav class="top-nav">
-        <div class="container d-flex mb">
+        <div class="container flex margin-bottom">
 
-          <a href="#" class="nav-brand"><img src="img/logo.svg" alt=""></a>
-          <ul class="navbar-nav d-flex">
+          <a href="#" class="nav-brand"><img src="../img/logo.svg" alt=""></a>
+          <ul class="navbar-nav flex">
             <li class="nav-link active"><a href="#">Home</a></li>
             <li class="nav-link"><a href="#">About Us</a></li>
             <li class="nav-link"><a href="#">Features</a></li>
             <li class="nav-link"><a href="#">Screens</a></li>
             <li class="nav-link"><a href="#">Contact Us</a></li>
-            <button class="btn btn-orange">Get the app</button>
+            <button class="button button-orange">Get the app</button>
           </ul>
 
         </div>
@@ -43,47 +45,116 @@
       <!-- TOP-NAV END -->
       <!-- NAVBAR START -->
       <section class="navbar">
-          <div class="container d-flex">
+        <div class="container flex">
 
-              <div class="text mb">
-                  <h1 class="mb">Creative Way to Showcase Your App</h1>
-                  <p class="mb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente saepe consequatur eius, impedit dolorem.</p>
-                  <div class="section-btn">
-                      <button class="btn btn-transparent">Download Now</button>
-                      <div class="watch-video d-flex">
-                          <a href="#"><img src="img/watch-icon.svg" alt=""></a>
-                          <p>Watch Video</p>
-                      </div>
-                  </div>
+          <div class="text margin-bottom">
+            <h1 class="margin-bottom">Creative Way to Showcase Your App</h1>
+            <p class="margin-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente saepe consequatur eius, impedit dolorem.</p>
+            <div class="section-btn">
+              <button class="button button-transparent">Download Now</button>
+              <div class="watch-video flex">
+                <a href="#"><img src="../img/watch-icon.svg" alt=""></a>
+                <p>Watch Video</p>
               </div>
-              
-              <img class="mobile" src="img/mobile.svg" alt="">
-
+            </div>
           </div>
+              
+          <img class="mobile" src="../img/mobile.svg" alt="">
+
+        </div>
       </section>
       <!-- NAVBAR END -->
     </div>
 
     <!-- START TEST Magnus  -->
 
-    <div class="ec-logo">
-      <img src="/img/ec-logo-mono.svg" alt="EC Utbildning" />
-      <img src="/img/ec-logo-mono.svg" alt="EC Utbildning" />
-      <img src="/img/ec-logo-mono.svg" alt="EC Utbildning" />
-      <img src="/img/ec-logo-mono.svg" alt="EC Utbildning" />
-    </div>
 
-    <!-- SLUT TEST Magnus -->
+    
+    
+    <!-- START --EC-Logo -- Magnus Ljung -->
+    <!-- Bootstrap classer: .container, .row, .col, .offset, .ms-->
+
+    <div class="ec-logo">
+      <div class="container">
+        <div class="row offset-1">
+          <div class="col ms-5"><img src="./img/ec-logo-mono.svg" alt=""></div>
+          <div class="col"><img src="./img/ec-logo-mono.svg" alt=""></div>
+          <div class="col"><img src="./img/ec-logo-mono.svg" alt=""></div>
+          <div class="col"><img src="./img/ec-logo-mono.svg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <!-- END  --EC-Logo -- Magnus Ljung -->
+
+    <!-- START --About Us-- Magnus Ljung-->
+    <!-- Bootstrap classer: .container, .d-flex, .row, .col, offset, .align-items-center-->
+    <section id="About-Us">
+        <div class="container">
+            <div class="row align-items-center">
+                <!--COLUMN 1: Bakgrund och iPhone bild-->
+                <div class="col about-bg">
+                  <img src="./img/iPhone.svg" alt="">
+                </div>
+                <!--COLUMN 2: Text och knappar-->
+                <div class="col offset-1">
+                    <div class="text-wrapper">
+                        <!-- HEAD -->
+                        <div class="about-head">
+                          <p>About Us</p>
+                        </div>
+                        <!-- RUBRIK -->
+                        <div class="about-heading">
+                          <h1>Easy To Serach Your Items By This App</h1> 
+                        </div>
+                        <!-- TEXT -->
+                        <div class="about-text">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint error assumenda ad illo eos modi inventore commodi officiis, dolor nesciunt minus, laboriosam sit sunt quos numquam aperiam exercitationem at, optio eius eaque totam cumque. Illum molestiae doloremque at sed cupiditate. Ipsum eum ea minus alias temporibus laudantium rem commodi provident soluta animi? Nihil, vero? Dolorum amet soluta odit cum quas, cupiditate in debitis? Distinctio, ad. Tenetur minima ratione optio deleniti vel recusandae perferendis velit explicabo! Velit esse illo error numquam.</p>
+                        </div>
+                        <!-- KNAPPAR -->
+                        <div class="d-flex">
+                            <!-- GOOGLE PLAY -->
+                            <button class="getApp-btn">
+                                <div class="btn-image">
+                                  <img src="./img/Google_Play.svg" alt="">  
+                                </div>
+                                <div class="btn-text">
+                                  <small>Get it from</small>
+                                  <p>Google Play</p>
+                                </div>
+                            </button>
+                            <!-- APP STORE -->
+                            <button class="getApp-btn">
+                                <div class="btn-image">
+                                  <img src="./img/App_Store.svg" alt="">  
+                                </div>
+                                <div class="btn-text">
+                                  <small>Download on the</small>
+                                  <p>App Store</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END --About Us-- Magnus Ljung-->
+
 
     <!-- START CAROUSEL Rohny -->
     <section>
       <div class="app_screen">
-        <div class="app_screen-content">
-          <h2>Application Screens</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
-          </p>
+        <div class="content">
+          <div class="content_title">
+            <h2>Application Screens</h2>
+          </div>
+          <div class="content_text">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              <br />
+              industry. Lorem Ipsum has been the industry's
+            </p>
+          </div>
         </div>
         <div class="carousel_container">
           <img src="./img/iPhone-X.svg" alt="" />
@@ -93,7 +164,90 @@
           <img src="./img/iPhone-X.svg" alt="" />
         </div>
       </div>
+      <div class="app_stats">
+        <div class="content">
+          <div class="content_title">
+            <h2>Application Statistics</h2>
+          </div>
+          <div class="content_text">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              <br />
+              industry. Lorem Ipsum has been the industry's
+            </p>
+          </div>
+          <div class="stats">
+            <div>
+              <h2>+ 1430</h2>
+              <p>Clients</p>
+            </div>
+            <div>
+              <h2>+ 2430</h2>
+              <p>Beneficiaries</p>
+            </div>
+            <div>
+              <h2>+ 1430</h2>
+              <p>Positive reviewers</p>
+            </div>
+            <div>
+              <h2>+ 10.430</h2>
+              <p>Downloads</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- SLUT CAROUSEL Rohny -->
+
+
+    <!-- START BANNER Henric -->
+
+    <div class = "banner">
+      <img src="img/bannerbackground.svg" alt="banner-background-image" id = "banner_background">
+      <div class= "banner_information">
+        
+        <h1 id = "banner_heading">Download the application now <br>
+          to enjoy its features!</h1>
+        <p id="banner_info_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br>
+           Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+        <div class="banner_buttons">
+
+          <button type="button"> <img src="img/googleplayicon.svg"  alt="googleplayicon">
+             <div class="button_text"> <p class ="banner_top_text">Get it from</p> <p class = "banner_bottom_text">Google Play</p></div></button>
+          <button type="button"> <img src="img/appleicon.svg"  alt="appleicon">
+             <div class="button_text"> <p class ="banner_top_text">Download on the</p> <p class = "banner_bottom_text">App Store</p></div></button>
+        </div>
+
+      </div>
+      <img src="img/banner-bundled-phones.svg" alt="banner-bundled-phones" id="banner_bundled_phones">
+    
+    </div>
+
+    <!-- SLUT BANNER Henric -->
+    <!-- START FOOTER YASMIN -->
+    
+    <footer class="footer-1">
+      <div class="logo">
+          <img src="img/logo.svg"" alt="">
+      </div>
+
+          <ul class="content">
+              
+              <li> <a href="#" class="link">Home</a></li>
+              <li> <a href="#" class="link">About us</a></li>
+              <li> <a href="#" class="link">Features</a></li>
+              <li> <a href="#" class="link">Screens</a></li>
+              <li> <a href="#" class="link">Contact Us</a></li>
+          </ul>
+
+          <div class="sociala-medier">
+              <img src="img/Social.svg" alt="">
+          </div>
+      
+      </footer>
+
+
+
   </body>
 </html>

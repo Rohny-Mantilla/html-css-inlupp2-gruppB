@@ -1,0 +1,103 @@
+/* START BANNER Henric */
+
+/* Fixar möjligheten att ha sectioner på bilden */
+.banner{
+margin-top: 100px;
+position: relative;
+width: 50%;
+
+display: flex;
+justify-content: space-between;
+}
+
+#banner_background{
+
+/* width: 100%; */
+
+}
+
+/* Plaserar Main textrutan på rätt ställe samt lägger alla elemnt i en column.*/
+/* Lägger också till 25px mellanrum mellan de olika elementen */
+.banner_information{
+
+    position: absolute;
+    top: 120px;
+    left: 375px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 730px;
+}
+/* Ändrar positionen på de bundled_phones image*/
+#banner_bundled_phones{
+
+    position: absolute;
+    top: 54px;
+    left: 1200px;
+}
+
+/* Ändrar font samt färg på den största texten i Bannern*/
+.banner_information #banner_heading{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+}
+.banner_information #banner_info_text{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+
+/* Mellanrum mellan knapparna  */
+.banner_buttons{
+    display: flex;
+    gap: 25px;
+}
+/* Fixar widht samt heighten på den två knapparna i Bannern, fixar också färg, tar bort bordern samt rundar kanterna*/
+.banner_buttons button{
+
+    height: 80px;
+    width: 232px;
+
+    display: flex;
+    gap: 30px;
+    
+    padding-top: 1rem;
+    padding-left: 1.4rem;
+    
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Fixar så att googleplay och apple iconen blir mer centrerad */
+.banner_buttons img{
+
+
+    padding-top: 7px;
+}
+
+/* Starplar texten på varandra vi flex column */
+.button_text{
+    display: flex;
+    flex-direction: column;
+}
+/* Fixar färg, font storklek samt gör att att texten börjar direkt till vänster  */
+.banner_buttons .banner_top_text{
+    font-size: 12px;
+    text-align: left;
+    margin: 0px;
+    color: #6B6B6B;
+}
+/* Fixar färg,gör texten bold, font storklek samt gör att att texten börjar direkt till vänster  */
+.banner_buttons .banner_bottom_text{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    color: #111111;
+}
+
+/* SLUT BANNER Henric */
