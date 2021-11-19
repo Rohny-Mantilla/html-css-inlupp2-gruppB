@@ -22,16 +22,76 @@
     <link rel="stylesheet" href="css/henric-css.css">
   </head>
   <body>
-    <!-- START TEST Magnus  -->
-
+    
+    
+    <!-- START --EC-Logo -- Magnus Ljung -->
+    <!-- Bootstrap classer: .container, .row, .col, .offset, .ms-->
     <div class="ec-logo">
-      <img src="/img/ec-logo-mono.svg" alt="EC Utbildning" />
-      <img src="/img/ec-logo-mono.svg" alt="EC Utbildning" />
-      <img src="/img/ec-logo-mono.svg" alt="EC Utbildning" />
-      <img src="/img/ec-logo-mono.svg" alt="EC Utbildning" />
+      <div class="container">
+        <div class="row offset-1">
+          <div class="col ms-5"><img src="/img/ec-logo-mono.svg" alt=""></div>
+          <div class="col"><img src="/img/ec-logo-mono.svg" alt=""></div>
+          <div class="col"><img src="/img/ec-logo-mono.svg" alt=""></div>
+          <div class="col"><img src="/img/ec-logo-mono.svg" alt=""></div>
+        </div>
+      </div>
     </div>
+    <!-- END  --EC-Logo -- Magnus Ljung -->
 
-    <!-- SLUT TEST Magnus -->
+    <!-- START --About Us-- Magnus Ljung-->
+    <!-- Bootstrap classer: .container, .d-flex, .row, .col, offset, .align-items-center-->
+    <section id="About-Us">
+        <div class="container">
+            <div class="row align-items-center">
+                <!--COLUMN 1: Bakgrund och iPhone bild-->
+                <div class="col about-bg">
+                  <img src="/img/iPhone.svg" alt="">
+                </div>
+                <!--COLUMN 2: Text och knappar-->
+                <div class="col offset-1">
+                    <div class="text-wrapper">
+                        <!-- HEAD -->
+                        <div class="about-head">
+                          <p>About Us</p>
+                        </div>
+                        <!-- RUBRIK -->
+                        <div class="about-heading">
+                          <h1>Easy To Serach Your Items By This App</h1> 
+                        </div>
+                        <!-- TEXT -->
+                        <div class="about-text">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint error assumenda ad illo eos modi inventore commodi officiis, dolor nesciunt minus, laboriosam sit sunt quos numquam aperiam exercitationem at, optio eius eaque totam cumque. Illum molestiae doloremque at sed cupiditate. Ipsum eum ea minus alias temporibus laudantium rem commodi provident soluta animi? Nihil, vero? Dolorum amet soluta odit cum quas, cupiditate in debitis? Distinctio, ad. Tenetur minima ratione optio deleniti vel recusandae perferendis velit explicabo! Velit esse illo error numquam.</p>
+                        </div>
+                        <!-- KNAPPAR -->
+                        <div class="d-flex">
+                            <!-- GOOGLE PLAY -->
+                            <button class="getApp-btn">
+                                <div class="btn-image">
+                                  <img src="/img/Google_Play.svg" alt="">  
+                                </div>
+                                <div class="btn-text">
+                                  <small>Get it from</small>
+                                  <p>Google Play</p>
+                                </div>
+                            </button>
+                            <!-- APP STORE -->
+                            <button class="getApp-btn">
+                                <div class="btn-image">
+                                  <img src="/img/App_Store.svg" alt="">  
+                                </div>
+                                <div class="btn-text">
+                                  <small>Download on the</small>
+                                  <p>App Store</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END --About Us-- Magnus Ljung-->
+
 
     <!-- START CAROUSEL Rohny -->
     <section>
@@ -53,6 +113,7 @@
       </div>
     </section>
     <!-- SLUT CAROUSEL Rohny -->
+
 
     <!-- START BANNER Henric -->
 
@@ -79,5 +140,6 @@
     </div>
 
     <!-- SLUT BANNER Henric -->
+
   </body>
 </html>
