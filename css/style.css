@@ -16,14 +16,78 @@ html,
 body {
   font-family: "Roboto", sans-serif;
 }
+
+/* START --EC-Logo -- Magnus Ljung */
 .ec-logo {
-  width: 68%; /* 1309px/1920px */
-  margin-left: 294px;
-  padding: 9.5rem 0;
+  margin: 8rem 0;
 }
-.ec-logo img {
-  margin-left: 119px;
+/* END --EC-Logo -- Magnus Ljung*/
+
+/* START --About Us-- Magnus Ljung*/
+#About-Us {
+  margin: 8rem 0;
 }
+.about-bg {
+  background-image: url(/img/bg-about-us.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.about-head {
+  display: inline-block;
+  background-color: #ffbb0026;
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+}
+.about-head p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffbb00;
+}
+.about-heading h1 {
+  margin: 0;
+  margin-top: 1.2rem;
+  font-size: 40px;
+  color: #333333;
+  /* Roboto BLACK saknas */
+}
+.about-text p {
+  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  color: #8a8a8a;
+}
+.getApp-btn {
+  margin-right: 20px;
+  background-color: #f8f8f8;
+  border: 1px transparent;
+  border-radius: 12px;
+  height: 80px;
+  width: 232px;
+  display: flex;
+  align-items: center;
+}
+.btn-image {
+  margin: 0 1.5rem;
+}
+.btn-text {
+  text-align: start;
+}
+.btn-text small {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b6b6b;
+}
+.btn-text p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+} 
+/* END --About Us-- Magnus Ljung */
+
 
 /* carousle -- start */
 .app_screen-content {
