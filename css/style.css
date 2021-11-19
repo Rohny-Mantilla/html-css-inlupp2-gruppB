@@ -16,17 +16,160 @@ html,
 body {
   font-family: "Roboto", sans-serif;
 }
-.ec-logo {
-  width: 68%; /* 1309px/1920px */
-  margin-left: 294px;
-  padding: 9.5rem 0;
-}
-.ec-logo img {
-  margin-left: 119px;
-}
 
+/* Navbar general */
+.container {
+  width: 70%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-orange {
+  background-color: #ffbb00;
+  color: #FFFFFF;
+  border: 2px solid transparent;
+}
+.button-transparent {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+.bg-header {
+  background: url(../img/rektangle_1.svg);
+  background-repeat: no-repeat;
+  background-size: 300vh;
+  background-position-y: 110%;
+  background-position-x: 30%;
+}
+/* Navbar general */
+
+
+
+/* START --EC-Logo -- Magnus Ljung */
+
+.ec-logo {
+  margin: 8rem 0;
+}
+/* END --EC-Logo -- Magnus Ljung*/
+
+/* START --About Us-- Magnus Ljung*/
+#About-Us {
+  margin: 8rem 0;
+}
+.about-bg {
+  background-image: url(../img/bg-about-us.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.about-head {
+  display: inline-block;
+  background-color: #ffbb0026;
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+}
+.about-head p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffbb00;
+}
+.about-heading h1 {
+  margin: 0;
+  margin-top: 1.2rem;
+  font-size: 40px;
+  color: #333333;
+  /* Roboto BLACK saknas */
+}
+.about-text p {
+  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  color: #8a8a8a;
+}
+.getApp-btn {
+  margin-right: 20px;
+  background-color: #f8f8f8;
+  border: 1px transparent;
+  border-radius: 12px;
+  height: 80px;
+  width: 232px;
+  display: flex;
+  align-items: center;
+}
+.btn-image {
+  margin: 0 1.5rem;
+}
+.btn-text {
+  text-align: start;
+}
+.btn-text small {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b6b6b;
+}
+.btn-text p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+} 
+/* END --About Us-- Magnus Ljung */
+
+
+/* TOP-NAV START */
+.top-nav {
+  padding-top: 2rem;
+}
+.top-nav a, .nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+  padding: .7rem;
+  display: inline-block;
+  position: relative;
+}
+.nav-link a:hover{
+  color: orange;
+}
+.nav-link:hover::after {
+  content: '';
+  border-bottom: 2px solid orange;
+  position: absolute;
+  left: 1rem;
+  right: 1.5rem;
+  bottom: .7rem;
+}
+/* TOP-NAV END */
+/* NAVBAR START */
+.navbar {
+  color: #FFFFFF;
+}
+.section-btn {
+  display: flex;
+  align-items: center;
+}
+.watch-video img{
+  margin: 0 .6rem 0 1rem;
+}
+.mobile {
+  height: 35rem;
+}
+/* NAVBAR END */
 /* carousle -- start */
-.app_screen-content {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,9 +177,22 @@ body {
   text-align: center;
 }
 
+.content_title {
+  font-weight: 600;
+  line-height: 50px;
+  color: var(--just-black);
+}
+
+.content_text {
+  color: var(--gray);
+  font-size: small;
+}
+
 .carousel_container {
   display: grid;
   width: 80%;
+  padding-top: 70px;
+  padding-bottom: 100px;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   margin: 0 auto;
@@ -44,6 +200,39 @@ body {
 
 .carousel_container img {
   height: 380px;
+  transition: all 500ms ease;
+}
+
+.carousel_container img:hover {
+  /* height: 450px; */
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.app_stats {
+  background-image: url(../img/world.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 700px;
+  padding-top: 25px;
+}
+
+.stats {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-bottom: 55px;
+}
+
+.stats h2 {
+  color: #3096fe;
+}
+
+.stats p {
+  font-size: large;
+  font-weight: 500;
+  color: var(--just-black);
 }
 /* carousle -- end */
 /* footer -- start */

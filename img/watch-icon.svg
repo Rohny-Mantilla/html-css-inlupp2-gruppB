@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Icon" transform="translate(-561 -601)">
+    <g id="Ellipse_63" data-name="Ellipse 63" transform="translate(561 601)" fill="none" stroke="#fb0" stroke-width="1">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_64" data-name="Ellipse 64" cx="19" cy="19" r="19" transform="translate(567 607)" fill="#fb0"/>
+    <g id="play_3_" data-name="play (3)" transform="translate(571.893 620)">
+      <path id="Path_5406" data-name="Path 5406" d="M10.1.27c-1.1-.632-2-.114-2,1.156V10.8c0,1.272.894,1.789,2,1.158l8.2-4.7a1.206,1.206,0,0,0,0-2.29Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
