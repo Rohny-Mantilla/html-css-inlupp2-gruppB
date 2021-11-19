@@ -28,7 +28,7 @@ body {
   margin: 8rem 0;
 }
 .about-bg {
-  background-image: url(/img/bg-about-us.svg);
+  background-image: url(../img/bg-about-us.svg);
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
