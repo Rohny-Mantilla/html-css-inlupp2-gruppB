@@ -21,31 +21,31 @@ body {
   width: 70%;
   margin: auto;
 }
-.d-flex {
+.flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.btn {
+.button {
   padding: 1rem 2rem;
   border-radius: 10px;
   cursor: pointer;
 }
-.btn-orange {
+.button-orange {
   background-color: #ffbb00;
   color: #FFFFFF;
   border: 2px solid transparent;
 }
-.btn-transparent {
+.button-transparent {
   background-color: transparent;
   border: 2px solid #FFFFFF;
   color: #FFFFFF;
 }
-.mb {
+.margin-bottom {
   margin-bottom: 2rem;
 }
 .bg-header {
-  background: url(img/rektangle_1.svg);
+  background: url(../img/rektangle_1.svg);
   background-repeat: no-repeat;
   background-size: 300vh;
   background-position-y: 110%;
