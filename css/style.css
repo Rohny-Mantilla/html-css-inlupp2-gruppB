@@ -17,7 +17,47 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Navbar general */
+.container {
+  width: 70%;
+  margin: auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-orange {
+  background-color: #ffbb00;
+  color: #FFFFFF;
+  border: 2px solid transparent;
+}
+.btn-transparent {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+.mb {
+  margin-bottom: 2rem;
+}
+.bg-header {
+  background: url(img/rektangle_1.svg);
+  background-repeat: no-repeat;
+  background-size: 300vh;
+  background-position-y: 110%;
+  background-position-x: 30%;
+}
+/* Navbar general */
+
+
+
 /* START --EC-Logo -- Magnus Ljung */
+
 .ec-logo {
   margin: 8rem 0;
 }
@@ -89,6 +129,45 @@ body {
 /* END --About Us-- Magnus Ljung */
 
 
+/* TOP-NAV START */
+.top-nav {
+  padding-top: 2rem;
+}
+.top-nav a, .nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+  padding: .7rem;
+  display: inline-block;
+  position: relative;
+}
+.nav-link a:hover{
+  color: orange;
+}
+.nav-link:hover::after {
+  content: '';
+  border-bottom: 2px solid orange;
+  position: absolute;
+  left: 1rem;
+  right: 1.5rem;
+  bottom: .7rem;
+}
+/* TOP-NAV END */
+/* NAVBAR START */
+.navbar {
+  color: #FFFFFF;
+}
+.section-btn {
+  display: flex;
+  align-items: center;
+}
+.watch-video img{
+  margin: 0 .6rem 0 1rem;
+}
+.mobile {
+  height: 35rem;
+}
+/* NAVBAR END */
 /* carousle -- start */
 .app_screen-content {
   display: flex;
