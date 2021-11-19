@@ -46,7 +46,7 @@ body {
   margin-bottom: 2rem;
 }
 .bg-header {
-  background: url(../img/rektangle_1.svg);
+  background-image: url(../img/rektangle_1.svg);
   background-repeat: no-repeat;
   background-size: 300vh;
   background-position-y: 110%;
