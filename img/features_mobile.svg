@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="603.441" height="555.395" viewBox="0 0 603.441 555.395">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1487fd"/>
+      <stop offset="1" stop-color="#42a0ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="1" stop-color="#ececec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f3f3f3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f3f3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Mobile" transform="translate(-84.819 -1792)">
+    <g id="Group_4466" data-name="Group 4466" transform="translate(206.186 1890.42)">
+      <g id="Ellipse_62" data-name="Ellipse 62" transform="translate(242.404 17.315)" fill="none" stroke="#fb0" stroke-width="50">
+        <circle cx="119.835" cy="119.835" r="119.835" stroke="none"/>
+        <circle cx="119.835" cy="119.835" r="94.835" fill="none"/>
+      </g>
+      <circle id="Ellipse_65" data-name="Ellipse 65" cx="46.932" cy="46.932" r="46.932" transform="translate(0 228.735)" fill="url(#linear-gradient)"/>
+      <g id="Ellipse_58" data-name="Ellipse 58" transform="translate(37.363)" fill="#fff" stroke="#e8e8e8" stroke-width="1">
+        <circle cx="173.601" cy="173.601" r="173.601" stroke="none"/>
+        <circle cx="173.601" cy="173.601" r="173.101" fill="none"/>
+      </g>
+      <g id="Group_57" data-name="Group 57" transform="translate(37.363 248.276)" opacity="0.14">
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 17.365) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-3" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 34.729) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-4" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 49.411) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-5" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 65.881) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-6" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 82.351) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-7" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 98.822) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-8" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 115.292) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-9" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 131.762) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-10" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 148.233) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-11" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 162.914) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-12" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 180.279) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-13" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(92.952 197.644) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-14" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-15" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 17.365) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-16" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 34.729) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-17" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 49.411) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-18" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 65.881) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-19" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 82.351) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-20" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 98.822) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-21" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-22" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 17.365) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-23" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 34.729) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-24" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 49.411) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-25" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 65.881) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-26" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 82.351) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-27" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 98.822) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-28" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 115.292) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-29" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 131.762) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-30" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 148.233) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-31" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 162.914) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-32" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 180.279) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-33" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(75.587 197.644) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-34" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-35" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 17.365) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-36" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 34.729) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-37" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 49.411) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-38" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 65.881) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-39" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 82.351) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-40" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 98.822) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-41" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-42" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 17.365) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-43" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 34.729) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-44" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 49.411) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-45" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 65.881) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-46" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 82.351) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-47" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 98.822) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-48" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 115.292) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-49" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 131.762) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-50" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 148.233) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-51" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 162.914) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-52" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 180.279) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-53" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(58.223 197.644) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-54" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 115.292) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-55" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 131.762) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-56" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 148.233) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-57" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 162.914) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-58" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 180.279) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-59" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(23.493 197.644) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-60" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-61" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 17.365) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-62" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 34.729) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-63" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 49.411) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-64" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 65.881) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-65" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 82.351) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-66" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 98.822) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-67" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 115.292) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-68" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 131.762) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-69" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 148.233) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-70" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 162.914) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-71" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 180.279) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-72" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(40.858 197.644) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-73" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 115.292) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-74" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 131.762) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-75" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 148.233) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-76" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 162.914) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-77" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 180.279) rotate(90)" fill="#f2805b"/>
+        <circle id="Ellipse_4-78" data-name="Ellipse 4" cx="3.064" cy="3.064" r="3.064" transform="translate(6.129 197.644) rotate(90)" fill="#f2805b"/>
+      </g>
+    </g>
+    <g id="iPhone_X_-_Light" data-name="iPhone X - Light" transform="matrix(0.819, -0.574, 0.574, 0.819, 84.819, 1952.025)">
+      <path id="Bezel" d="M26.878,0H205.873A26.878,26.878,0,0,1,232.75,26.878v428.9a26.878,26.878,0,0,1-26.878,26.878H26.878A26.878,26.878,0,0,1,0,455.779V26.878A26.878,26.878,0,0,1,26.878,0Z" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+      <path id="Glass" d="M25.414,0H205.048a25.349,25.349,0,0,1,25.414,25.283v429.8a25.349,25.349,0,0,1-25.414,25.283H25.414A25.349,25.349,0,0,1,0,455.087V25.283A25.349,25.349,0,0,1,25.414,0Z" transform="translate(1.144 1.144)" fill="url(#linear-gradient-3)"/>
+      <g id="Camera" transform="translate(141.632 9.905)">
+        <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="4.032" cy="4.032" rx="4.032" ry="4.032" transform="translate(0 0)" fill="url(#linear-gradient-4)"/>
+        <circle id="Ellipse_8" data-name="Ellipse 8" cx="3.629" cy="3.629" r="3.629" transform="translate(0 0)" fill="url(#linear-gradient-3)"/>
+        <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="2.822" cy="2.822" rx="2.822" ry="2.822" transform="translate(0.806 0.806)" fill="#f3f3f3"/>
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="0.806" cy="0.806" r="0.806" transform="translate(3.225 0.806)" fill="#fff"/>
+      </g>
+      <path id="Ear_Piece" data-name="Ear Piece" d="M2,0H33.454a2,2,0,0,1,0,4H2A2,2,0,0,1,2,0Z" transform="translate(98.647 12.295)" fill="#f3f3f3" stroke="#f9f8f8" stroke-width="1"/>
+      <path id="Screen" d="M192.719,464.357H21.731A21.755,21.755,0,0,1,0,442.626V21.731A21.756,21.756,0,0,1,21.731,0H44.756a3.9,3.9,0,0,1,2.991,2.957c.094.414.192.955.306,1.582.219,1.206.491,2.7.9,4.213.523,1.956,2.833,8.342,10.6,8.422,2.928.03,21.184.037,35.983.037,27.224,0,58.462-.021,59.924-.037,7.763-.08,10.073-6.467,10.6-8.422.405-1.515.678-3.013.9-4.216.114-.63.212-1.168.305-1.579A3.77,3.77,0,0,1,170.215,0h22.5A21.756,21.756,0,0,1,214.45,21.731V442.626A21.755,21.755,0,0,1,192.719,464.357Z" transform="translate(9.15 9.15)" fill="#e3e3e3"/>
+      <path id="Image_Place_here" data-name="Image Place here" d="M192.719,464.357H21.731A21.755,21.755,0,0,1,0,442.626V21.731A21.756,21.756,0,0,1,21.731,0H44.756a3.9,3.9,0,0,1,2.991,2.957c.094.414.192.955.306,1.582.219,1.206.491,2.7.9,4.213.523,1.956,2.833,8.342,10.6,8.422,2.928.03,21.184.037,35.983.037,27.224,0,58.462-.021,59.924-.037,7.763-.08,10.073-6.467,10.6-8.422.405-1.515.678-3.013.9-4.216.114-.63.212-1.168.305-1.579A3.77,3.77,0,0,1,170.215,0h22.5A21.756,21.756,0,0,1,214.45,21.731V442.626A21.755,21.755,0,0,1,192.719,464.357Z" transform="translate(9.15 9.15)" fill="#e3e3e3"/>
+      <path id="Home" d="M1.43,0H72.913a1.43,1.43,0,0,1,0,2.859H1.43A1.43,1.43,0,1,1,1.43,0Z" transform="translate(79.49 463.785)" fill="#e2e2e2"/>
+    </g>
+    <g id="iPhone_X_-_Light-2" data-name="iPhone X - Light" transform="translate(341.057 1792)">
+      <path id="Bezel-2" data-name="Bezel" d="M30.376,0H232.664A30.376,30.376,0,0,1,263.04,30.376V515.093a30.376,30.376,0,0,1-30.376,30.376H30.376A30.376,30.376,0,0,1,0,515.093V30.376A30.376,30.376,0,0,1,30.376,0Z" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+      <path id="Glass-2" data-name="Glass" d="M28.722,0H231.733a28.648,28.648,0,0,1,28.722,28.573V514.31a28.648,28.648,0,0,1-28.722,28.573H28.722A28.648,28.648,0,0,1,0,514.31V28.573A28.648,28.648,0,0,1,28.722,0Z" transform="translate(1.293 1.293)" fill="url(#linear-gradient-3)"/>
+      <g id="Camera-2" data-name="Camera" transform="translate(160.064 11.194)">
+        <ellipse id="Ellipse_7-2" data-name="Ellipse 7" cx="4.556" cy="4.556" rx="4.556" ry="4.556" transform="translate(0 0)" fill="url(#linear-gradient-4)"/>
+        <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="4.101" cy="4.101" r="4.101" transform="translate(0 0)" fill="url(#linear-gradient-3)"/>
+        <ellipse id="Ellipse_10-2" data-name="Ellipse 10" cx="3.19" cy="3.19" rx="3.19" ry="3.19" transform="translate(0.911 0.911)" fill="#f3f3f3"/>
+        <circle id="Ellipse_9-2" data-name="Ellipse 9" cx="0.911" cy="0.911" r="0.911" transform="translate(3.645 0.911)" fill="#fff"/>
+      </g>
+      <path id="Ear_Piece-2" data-name="Ear Piece" d="M2.262,0H37.808a2.262,2.262,0,0,1,0,4.524H2.262A2.262,2.262,0,0,1,2.262,0Z" transform="translate(111.485 13.895)" fill="#f3f3f3" stroke="#f9f8f8" stroke-width="1"/>
+      <path id="Screen-2" data-name="Screen" d="M217.8,524.787H24.559A24.587,24.587,0,0,1,0,500.228V24.559A24.587,24.587,0,0,1,24.559,0H50.581a4.4,4.4,0,0,1,3.38,3.342c.106.468.217,1.08.346,1.788.248,1.363.555,3.054,1.012,4.762.591,2.21,3.2,9.428,11.975,9.518,3.309.034,23.941.041,40.666.041,30.767,0,66.071-.024,67.722-.041,8.773-.09,11.384-7.308,11.975-9.518.458-1.712.766-3.4,1.013-4.765.129-.712.24-1.319.345-1.784A4.261,4.261,0,0,1,192.366,0H217.8a24.587,24.587,0,0,1,24.559,24.559V500.228A24.587,24.587,0,0,1,217.8,524.787Z" transform="translate(10.341 10.341)" fill="#e3e3e3"/>
+      <path id="Image_Place_here-2" data-name="Image Place here" d="M217.8,524.787H24.559A24.587,24.587,0,0,1,0,500.228V24.559A24.587,24.587,0,0,1,24.559,0H50.581a4.4,4.4,0,0,1,3.38,3.342c.106.468.217,1.08.346,1.788.248,1.363.555,3.054,1.012,4.762.591,2.21,3.2,9.428,11.975,9.518,3.309.034,23.941.041,40.666.041,30.767,0,66.071-.024,67.722-.041,8.773-.09,11.384-7.308,11.975-9.518.458-1.712.766-3.4,1.013-4.765.129-.712.24-1.319.345-1.784A4.261,4.261,0,0,1,192.366,0H217.8a24.587,24.587,0,0,1,24.559,24.559V500.228A24.587,24.587,0,0,1,217.8,524.787Z" transform="translate(10.341 10.341)" fill="#e3e3e3"/>
+      <path id="Home-2" data-name="Home" d="M1.616,0H82.4a1.616,1.616,0,0,1,0,3.231H1.616A1.616,1.616,0,1,1,1.616,0Z" transform="translate(89.834 524.141)" fill="#e2e2e2"/>
+    </g>
+  </g>
+</svg>
