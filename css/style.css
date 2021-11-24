@@ -4,6 +4,7 @@
   --cool-yellow: #ffbb00;
   --gray: #8a8a8a;
   --just-black: #333333;
+  --off-white: #f5f5f5;
 }
 
 * {
@@ -58,13 +59,13 @@ body {
 /* START --EC-Logo -- Magnus Ljung */
 .ec-logo {
   margin: 8rem 0;
- }
- .ec-logo .about-container {
+}
+.ec-logo .about-container {
   display: flex;
   justify-content: space-between;
   padding-left: 10rem;
   padding-right: 3rem;
- }
+}
 /* END --EC-Logo -- Magnus Ljung*/
 
 /* START --About Us-- Magnus Ljung*/
@@ -209,6 +210,8 @@ body {
 .content_title {
   font-weight: 600;
   line-height: 50px;
+  font-size: 1.5rem;
+  padding-bottom: 15px;
   color: var(--just-black);
 }
 
@@ -236,7 +239,6 @@ body {
 
 .carousel_container img:hover {
   /* height: 450px;  */
-  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -259,6 +261,15 @@ body {
   display: block;
   width: 100%;
 }
+
+.centrum img {
+  transform: scale(1.2);
+}
+
+.resten img {
+  filter: blur(200px);
+}
+
 /* SWIPER END */
 
 .app_stats {
@@ -332,13 +343,16 @@ footer {
 
 /* media query */
 
-
 /* START - MAGNUS */
 @media (max-width: 1400px) {
-  .about-container {max-width: 1140px;}
+  .about-container {
+    max-width: 1140px;
+  }
 }
 @media (max-width: 1200px) {
-  .about-container {max-width: 960px;}
+  .about-container {
+    max-width: 960px;
+  }
   .about-bg {
     display: none;
   }
@@ -355,16 +369,20 @@ footer {
   }
 }
 @media (max-width: 992px) {
-  .about-container {max-width: 720px;}
+  .about-container {
+    max-width: 720px;
+  }
 }
 /* END - MAGNUS */
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
   }
-/* START - Magnus */
-  .about-container {max-width: 540px;}
-/* END - Magnus */
+  /* START - Magnus */
+  .about-container {
+    max-width: 540px;
+  }
+  /* END - Magnus */
 }
 /* @media (max-width: 576px) {
   
@@ -374,8 +392,3 @@ footer {
     max-width: 320px;
   }
 }
-
-
-
-
-
