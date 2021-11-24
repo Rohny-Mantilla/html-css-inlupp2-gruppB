@@ -8,14 +8,12 @@
     /* width: 50%; */
     background-image: url("../img/bannerbackground.svg");
     width: 100%;
-
     display: flex;
     /* justify-content: space-between; */
     justify-content: center;
     background-repeat: no-repeat;
     /* background-size: auto; */
     background-size: cover;
-
     background-position: center;  
 }
 
