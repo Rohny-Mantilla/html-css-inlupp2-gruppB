@@ -8,6 +8,7 @@ width: 50%;
 
 display: flex;
 justify-content: space-between;
+
 }
 
 #banner_background{
@@ -101,3 +102,90 @@ justify-content: space-between;
 }
 
 /* SLUT BANNER Henric */
+
+
+
+
+
+
+
+/* START FEATURES HENRIC */
+
+/* Fixar grid pattern till vänster om skärmen  */
+#features_repeat_grid{
+
+   
+   position: absolute;
+   margin-top: 120px;
+}
+/* Flyttar samt centrerar hela feature containern */
+#features_container{
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+    margin-bottom: 100px;
+    gap: 10px;
+}
+/* Gör så att alla divs i "features_information sorteras som en kolumn. Ändrar gapet mellan elementen samt fixar avstånd från "About us" */
+#features_information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px;
+    margin-top: 50px;
+    
+}
+/* Fixar en kub med rundade hörn som sedan "features_icon_text ligger i */
+.features_head{
+    
+    display: inline-block;
+    background-color: #ffbb0026;
+    padding: 0.4rem 1rem;
+    border-radius: 7px;
+    
+}
+/* Ändrar text färgen samt ändrar font sizen */
+#features_icon_text{
+    margin: 0;
+    font-size: 14px;
+    color: #ffbb00;
+    
+}
+/* Gör fonten bold samt ändrar storlek och färg */
+#features_information h1{
+
+  font-size: 40px;
+  color: #333333;
+  font-weight: 900;
+}
+/* Ändrar färgen på  */
+#features_paragraph_info {
+
+    margin: 0;
+
+    color: #8a8a8a;
+}
+/* Gör så att diven använder flex samt ändrar gappet mellan iconen och texten */
+.feature_squere{
+
+    display: flex;
+    gap: 30px;
+}
+/* flyttar ner texten så att den är mer i samma nivå av iconen  */
+.feature_squere_info{
+
+    margin-top: 30px;
+}
+/* Ändrar font weighten samt ändrar font sizen */
+.feature_squere_info h2{
+
+    font-weight: 900;
+    font-size: 20px;
+}
+/* Ändrar fontsizen samt ändrar färgen på paragraph */
+.feature_squere_info p{
+
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
