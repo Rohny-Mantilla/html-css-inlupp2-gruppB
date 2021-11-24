@@ -188,6 +188,8 @@ body {
 }
 
 .carousel_container {
+  max-width: 1440px;
+  margin: auto;
   /* display: grid; */
   /* width: 80%;
   padding-top: 70px;
@@ -299,17 +301,3 @@ footer {
 }
 
 /* media query */
-@media (max-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 320px;
-  }
-
-
-
-
