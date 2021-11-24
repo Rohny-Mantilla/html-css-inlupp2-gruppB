@@ -56,22 +56,44 @@ body {
 /* Navbar general */
 
 /* START --EC-Logo -- Magnus Ljung */
-
 .ec-logo {
   margin: 8rem 0;
-}
+ }
+ .ec-logo .about-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10rem;
+  padding-right: 3rem;
+ }
 /* END --EC-Logo -- Magnus Ljung*/
 
 /* START --About Us-- Magnus Ljung*/
 #About-Us {
   margin: 8rem 0;
 }
+.about-container {
+  width: 100%;
+  max-width: 1309px;
+  margin: auto;
+  /* margin-left: 15rem; */
+}
+#About-Us .about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .about-bg {
+  min-width: 567px;
   background-image: url(../img/bg-about-us.svg);
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.text-wrapper {
+  max-width: 570px;
+  margin-left: 2rem;
 }
 .about-head {
   display: inline-block;
@@ -90,12 +112,17 @@ body {
   font-size: 40px;
   color: #333333;
   font-weight: 900;
+  letter-spacing: 2px;
 }
 .about-text p {
   margin: 0;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
   color: #8a8a8a;
+  line-height: 30px;
+}
+.btn-flex {
+  display: flex;
 }
 .getApp-btn {
   margin-right: 20px;
@@ -106,6 +133,7 @@ body {
   width: 232px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .btn-image {
   margin: 0 1.5rem;
@@ -115,12 +143,14 @@ body {
 }
 .btn-text small {
   margin: 0;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: #6b6b6b;
 }
 .btn-text p {
-  margin: 0;
+  margin-top: 0.4rem;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 700;
   color: #111;
@@ -301,3 +331,51 @@ footer {
 }
 
 /* media query */
+
+
+/* START - MAGNUS */
+@media (max-width: 1400px) {
+  .about-container {max-width: 1140px;}
+}
+@media (max-width: 1200px) {
+  .about-container {max-width: 960px;}
+  .about-bg {
+    display: none;
+  }
+  .text-wrapper {
+    margin: 0;
+    max-width: none;
+    text-align: center;
+  }
+  .btn-flex {
+    justify-content: center;
+  }
+  .ec-logo {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .about-container {max-width: 720px;}
+}
+/* END - MAGNUS */
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+/* START - Magnus */
+  .about-container {max-width: 540px;}
+/* END - Magnus */
+}
+/* @media (max-width: 576px) {
+  
+} */
+@media (max-width: 375px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+
+
+
+
