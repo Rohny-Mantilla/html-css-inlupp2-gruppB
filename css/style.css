@@ -4,7 +4,6 @@
   --cool-yellow: #ffbb00;
   --gray: #8a8a8a;
   --just-black: #333333;
-  --off-white: #f5f5f5;
 }
 
 * {
@@ -18,12 +17,43 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Navbar general start*/
+/* Navbar general */
 .container {
-  width: 100%;
+  width: 70%;
   margin: auto;
 }
-/* Navbar general end*/
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-orange {
+  background-color: #ffbb00;
+  color: #ffffff;
+  border: 2px solid transparent;
+}
+.button-transparent {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+.bg-header {
+  background-image: url(../img/rektangle_1.svg);
+  background-repeat: no-repeat;
+  /* background-size: 300vh; */
+  background-position-y: 92%;
+  background-position-x: 30%;
+}
+/* Navbar general */
 
 /* START --EC-Logo -- Magnus Ljung */
 .ec-logo {
@@ -127,111 +157,46 @@ body {
 }
 /* END --About Us-- Magnus Ljung */
 
-/* HEADER START*/
-.header-bg {
-  background-image: url(../img/rektangle_1.svg);
-  background-repeat: no-repeat;
-  background-position-y: 92%;
-  background-position-x: 30%;
-  margin-bottom: 5rem;
-}
-
-/* top-nav start */
-.top-nav .container,
-.nav-bar .container {
-  padding: 2rem 0;
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-}
-.top-nav-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.top-nav-toggler {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  font-size: 1.8rem;
-  color: #ffffff;
-}
-.collapsen {
-  display: none;
+/* TOP-NAV START */
+.top-nav {
+  padding-top: 2rem;
 }
 .top-nav a,
 .nav-link {
-  text-decoration: none;
   color: #ffffff;
-  /* display: inline-block; */
+  text-decoration: none;
+  list-style: none;
+  padding: 0.7rem;
+  display: inline-block;
   position: relative;
 }
-.button-orange {
-  padding: 0.7rem 2rem;
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: var(--cool-yellow);
-  color: #ffffff;
-  border: 2px solid var(--cool-yellow);
-}
-.button-orange:hover {
-  background-color: transparent;
-  border: 2px solid #ffffff;
-}
 .nav-link a:hover {
-  color: var(--cool-yellow);
+  color: orange;
 }
 .nav-link:hover::after {
   content: "";
-  border-bottom: 2px solid var(--cool-yellow);
+  border-bottom: 2px solid orange;
   position: absolute;
   left: 1rem;
   right: 1.5rem;
   bottom: 0.7rem;
 }
-/* top-nav end */
-
-/* nav-bar start */
+/* TOP-NAV END */
+/* NAVBAR START */
 .nav-bar {
   color: #ffffff;
 }
-.section-binder {
-  margin-bottom: 5rem;
-}
-.nav-bar h1 {
-  font-weight: 900;
-}
-.section-text p {
-  padding: 1rem 0;
-}
-.section-button {
+.section-btn {
   display: flex;
   align-items: center;
-  flex-direction: row;
 }
-.section-button img {
-  padding: 0 1rem;
+.watch-video img {
+  margin: 0 0.6rem 0 1rem;
 }
 .mobile {
-  display: none;
+  height: 35rem;
 }
-.button-transparent {
-  padding: 0.7rem 2rem;
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: transparent;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-}
-.button-transparent:hover {
-  background-color: #ffffff;
-  color: rgb(59, 177, 250);
-}
-/* nav-bar end*/
-/* HEADER END */
-
+/* NAVBAR END */
 /* carousle -- start */
 .content {
   display: flex;
@@ -244,8 +209,6 @@ body {
 .content_title {
   font-weight: 600;
   line-height: 50px;
-  font-size: 1.5rem;
-  padding-bottom: 15px;
   color: var(--just-black);
 }
 
@@ -257,7 +220,6 @@ body {
 .carousel_container {
   max-width: 1440px;
   margin: auto;
-
   /* display: grid; */
   /* width: 80%;
   padding-top: 70px;
@@ -274,6 +236,7 @@ body {
 
 .carousel_container img:hover {
   /* height: 450px;  */
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -296,15 +259,6 @@ body {
   display: block;
   width: 100%;
 }
-
-.centrum img {
-  transform: scale(1.2);
-}
-
-.resten img {
-  filter: blur(200px);
-}
-
 /* SWIPER END */
 
 .app_stats {
@@ -409,29 +363,15 @@ footer {
   }
 }
 /* END - MAGNUS */
-
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
   }
-
-  .top-nav-toggler {
-    display: none;
+  /* START - Magnus */
+  .about-container {
+    max-width: 540px;
   }
-  .collapsen {
-    display: block;
-  }
-  .top-nav-nav {
-    flex-direction: row;
-  }
-  .nav-bar .mobile {
-    display: inline-block;
-  }
-}
-@media (max-width: 375px) {
-  .container {
-    max-width: 320px;
-  }
+  /* END - Magnus */
 }
 /* @media (max-width: 576px) {
   
@@ -440,4 +380,8 @@ footer {
   .container {
     max-width: 320px;
   }
+}
+
+/* rohny */
+@media (max-width: 450px) {
 }
