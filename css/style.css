@@ -255,6 +255,33 @@ body {
   color: var(--just-black);
 }
 /* carousle -- end */
+
+/* START - Contact Us - Magnus */
+#Contact-Us {
+  margin: 8rem 0;
+}
+.contact-container {
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.contact-title h1 {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #333333;
+}
+.contact-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #8a8a8a;
+}
+
+
+/* END - Contact Us - Magnus */
+
 /* footer -- start */
 footer {
   text-align: center;
