@@ -14,6 +14,7 @@
     justify-content: center;
     background-repeat: no-repeat;
     /* background-size: auto; */
+    background-size: cover;
 
     background-position: center;  
 }
