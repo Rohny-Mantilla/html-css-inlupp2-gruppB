@@ -347,11 +347,12 @@ footer {
   }
   .text-wrapper {
     margin: 0;
-    max-width: none;
-    text-align: center;
+  }
+  #About-Us .about-container {
+    justify-content: center;
   }
   .btn-flex {
-    justify-content: center;
+    justify-content: start;
   }
   .ec-logo {
     display: none;
