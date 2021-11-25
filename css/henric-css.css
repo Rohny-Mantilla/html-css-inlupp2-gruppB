@@ -110,15 +110,22 @@
 
 
 
-
-
-
 /* START FEATURES HENRIC */
 
 /* Fixar grid pattern till vänster om skärmen  */
-#features_repeat_grid{
+#features{
 
-   
+    background-color: #f5f5f54f;
+    padding-top: 75px;
+    /* padding-bottom: 10px; */
+    padding-bottom: 95px;
+    margin-bottom: 100px;
+}
+#features_mobile_icon{
+    margin-top: 35px;
+}
+
+#features_repeat_grid{
    position: absolute;
    margin-top: 120px;
 }
@@ -127,7 +134,7 @@
     display: flex;
     justify-content: center;
     margin-left: 130px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     gap: 10px;
 }
 /* Gör så att alla divs i "features_information sorteras som en kolumn. Ändrar gapet mellan elementen samt fixar avstånd från "About us" */
@@ -150,10 +157,11 @@
 }
 /* Ändrar text färgen samt ändrar font sizen */
 #features_icon_text{
+
     margin: 0;
     font-size: 14px;
     color: #ffbb00;
-    
+
 }
 /* Gör fonten bold samt ändrar storlek och färg */
 #features_information h1{
@@ -161,19 +169,20 @@
   font-size: 40px;
   color: #333333;
   font-weight: 900;
+
 }
 /* Ändrar färgen på  */
 #features_paragraph_info {
 
     margin: 0;
-
     color: #8a8a8a;
+
 }
 /* Gör så att diven använder flex samt ändrar gappet mellan iconen och texten */
 .feature_squere{
 
     display: flex;
-    gap: 30px;
+    gap: 30px;  
 }
 /* flyttar ner texten så att den är mer i samma nivå av iconen  */
 .feature_squere_info{
@@ -191,5 +200,42 @@
 
     font-size: 14px;
     color: #8a8a8a;
+}
+
+@media (max-width: 768px) {
+    
+    /* Tablet Banner */
+    #banner_bundled_phones{
+        display: none;
+    }
+    .banner_buttons{
+        justify-content: center;
+        padding-bottom: 100px;
+
+        
+    }
+    #banner_heading{
+        text-align: center;
+    }
+    #banner_info_text{
+       text-align: center;
+    }
+
+    /* Tablet Features */
+    #features_mobile_icon{
+        display: none;
+    }
+
+    #features_container {
+       justify-content: center;
+       margin-left: -45px;
+    }
+    #features_repeat_grid{
+        display: none;
+        
+    }
+    
+    
+
 }
 
