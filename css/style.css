@@ -5,6 +5,8 @@
   --gray: #8a8a8a;
   --just-black: #333333;
 }
+/* Poppins in header */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 * {
   margin: 0;
@@ -132,9 +134,8 @@ body {
 .header-bg {
   background-image: url(../img/rektangle_1.svg);
   background-repeat: no-repeat;
-  background-position-y: 92%;
-  background-position-x: 30%;
-  margin-bottom: 5rem;
+  background-position-y: 130%;
+  background-position-x: 35%;
 }
 
 /* top-nav start */
@@ -145,6 +146,10 @@ body {
   list-style: none;
   justify-content: space-between;
   align-items: center;
+}
+.top-nav-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 .top-nav-nav {
   display: flex;
@@ -157,9 +162,10 @@ body {
   outline: none;
   font-size: 1.8rem;
   color: #ffffff;
+  display: none;
 }
 .collapsen {
-  display: none;
+  display: block;
 }
 .top-nav a, .nav-link {
   text-decoration: none;
@@ -216,7 +222,7 @@ body {
   padding: 0 1rem;
 }
 .mobile {
-  display: none;
+  display: inline-block;
 }
 .button-transparent {
   padding: .7rem 2rem;
@@ -400,43 +406,69 @@ footer {
 }
 /* END - MAGNUS */
 
-
-@media (max-width: 768px) {
+/* START - HEADER */
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+  .header-bg {
+    background-repeat: no-repeat;
+    background-position-y: -1200%;
+    background-position-x: 30%;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .header-bg {
+    background-repeat: no-repeat;
+    background-position-y: 350%;
+    background-position-x: 35%;
+  }
+}
+@media (max-width: 992px) {
 
   .container {
     max-width: 720px;
   }
-
+  .top-nav .container, 
+  .nav-bar .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   .top-nav-toggler {
-    display: none;
+    display: block;
   }
   .collapsen {
-    display: block;
+    display: none;
   }
   .top-nav-nav {
     flex-direction: row;
   }
   .nav-bar .mobile {
-    display: inline-block;
+    display: none;
+  }
+  .header-bg {
+    background-repeat: no-repeat;
+    background-position-y: 170%;
+    background-position-x: 35%;
   }
 }
 @media (max-width: 375px) {
   .container {
     max-width: 320px;
   }
-
+  .header-bg {
+    background-repeat: no-repeat;
+    background-position-y: 200%;
+    background-position-x: 35%;
+  }
 }
-/* @media (max-width: 576px) {
-  
-} */
+/* END - HEADER */
+
 @media (max-width: 375px) {
   .container {
     max-width: 320px;
   }
 }
-
-
-
-
-
-
