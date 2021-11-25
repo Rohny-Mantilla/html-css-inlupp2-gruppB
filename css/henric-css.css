@@ -1,195 +1,171 @@
 /* START BANNER Henric */
 
 /* Fixar möjligheten att ha sectioner på bilden */
-.banner{
-    margin-top: 100px;
-    padding-top: 50px;
-    /* position: relative; */
-    /* width: 50%; */
-    background-image: url("../img/bannerbackground.svg");
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between; */
-    justify-content: center;
-    background-repeat: no-repeat;
-    /* background-size: auto; */
-    background-size: cover;
-    background-position: center;  
+.banner {
+  margin-top: 100px;
+  padding-top: 50px;
+  /* position: relative; */
+  /* width: 50%; */
+  background-image: url("../img/bannerbackground.svg");
+  width: 100%;
+
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-size: cover;
+
+  background-position: center;
 }
-
-
 
 /* Plaserar Main textrutan på rätt ställe samt lägger alla elemnt i en column.*/
 /* Lägger också till 25px mellanrum mellan de olika elementen */
-.banner_information{
-    /* background-color: gray; */
-    /* position: absolute; */
-    top: 120px;
-    left: 375px;
-    margin-top: 0px;
-    padding-top: 50px;
-    
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    width: 730px;
+.banner_information {
+  /* background-color: gray; */
+  /* position: absolute; */
+  top: 120px;
+  left: 375px;
+  margin-top: 0px;
+  padding-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 730px;
 }
 /* Ändrar positionen på de bundled_phones image*/
-#banner_bundled_phones{
-
-    /* position: absolute; */
-    top: 54px;
-    left: 1200px;
+#banner_bundled_phones {
+  /* position: absolute; */
+  top: 54px;
+  left: 1200px;
 }
 
 /* Ändrar font samt färg på den största texten i Bannern*/
-.banner_information #banner_heading{
+.banner_information #banner_heading {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 50px;
 }
-.banner_information #banner_info_text{
+.banner_information #banner_info_text {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
-
 /* Mellanrum mellan knapparna  */
-.banner_buttons{
-    display: flex;
-    gap: 25px;
+.banner_buttons {
+  display: flex;
+  gap: 25px;
 }
 /* Fixar widht samt heighten på den två knapparna i Bannern, fixar också färg, tar bort bordern samt rundar kanterna*/
-.banner_buttons button{
+.banner_buttons button {
+  height: 80px;
+  width: 232px;
 
-    height: 80px;
-    width: 232px;
+  display: flex;
+  gap: 30px;
 
-    display: flex;
-    gap: 30px;
-    
-    padding-top: 1rem;
-    padding-left: 1.4rem;
-    
-    background-color: white;
-    border: none;
-    border-radius: 12px;
+  padding-top: 1rem;
+  padding-left: 1.4rem;
+
+  background-color: white;
+  border: none;
+  border-radius: 12px;
 }
 
 /* Fixar så att googleplay och apple iconen blir mer centrerad */
-.banner_buttons img{
-
-
-    padding-top: 7px;
+.banner_buttons img {
+  padding-top: 7px;
 }
 
 /* Starplar texten på varandra vi flex column */
-.button_text{
-    display: flex;
-    flex-direction: column;
+.button_text {
+  display: flex;
+  flex-direction: column;
 }
 /* Fixar färg, font storklek samt gör att att texten börjar direkt till vänster  */
-.banner_buttons .banner_top_text{
-    font-size: 12px;
-    text-align: left;
-    margin: 0px;
-    color: #6B6B6B;
+.banner_buttons .banner_top_text {
+  font-size: 12px;
+  text-align: left;
+  margin: 0px;
+  color: #6b6b6b;
 }
 /* Fixar färg,gör texten bold, font storklek samt gör att att texten börjar direkt till vänster  */
-.banner_buttons .banner_bottom_text{
-    font-size: 22px;
-    font-weight: bold;
-    text-align: left;
-    margin: 0px;
-    color: #111111;
+.banner_buttons .banner_bottom_text {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0px;
+  color: #111111;
 }
 
 /* SLUT BANNER Henric */
 
-
-
-
-
-
-
 /* START FEATURES HENRIC */
 
 /* Fixar grid pattern till vänster om skärmen  */
-#features_repeat_grid{
-
-   
-   position: absolute;
-   margin-top: 120px;
+#features_repeat_grid {
+  position: absolute;
+  margin-top: 120px;
 }
 /* Flyttar samt centrerar hela feature containern */
-#features_container{
-    display: flex;
-    justify-content: center;
-    margin-left: 130px;
-    margin-bottom: 100px;
-    gap: 10px;
+#features_container {
+  display: flex;
+  justify-content: center;
+  margin-left: 130px;
+  margin-bottom: 100px;
+  gap: 10px;
 }
 /* Gör så att alla divs i "features_information sorteras som en kolumn. Ändrar gapet mellan elementen samt fixar avstånd från "About us" */
-#features_information{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 100px;
-    margin-top: 50px;
-    
+#features_information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 100px;
+  margin-top: 50px;
 }
 /* Fixar en kub med rundade hörn som sedan "features_icon_text ligger i */
-.features_head{
-    
-    display: inline-block;
-    background-color: #ffbb0026;
-    padding: 0.4rem 1rem;
-    border-radius: 7px;
-    
+.features_head {
+  display: inline-block;
+  background-color: #ffbb0026;
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
 }
 /* Ändrar text färgen samt ändrar font sizen */
-#features_icon_text{
-    margin: 0;
-    font-size: 14px;
-    color: #ffbb00;
-    
+#features_icon_text {
+  margin: 0;
+  font-size: 14px;
+  color: #ffbb00;
 }
 /* Gör fonten bold samt ändrar storlek och färg */
-#features_information h1{
-
+#features_information h1 {
   font-size: 40px;
   color: #333333;
   font-weight: 900;
 }
 /* Ändrar färgen på  */
 #features_paragraph_info {
+  margin: 0;
 
-    margin: 0;
-
-    color: #8a8a8a;
+  color: #8a8a8a;
 }
 /* Gör så att diven använder flex samt ändrar gappet mellan iconen och texten */
-.feature_squere{
-
-    display: flex;
-    gap: 30px;
+.feature_squere {
+  display: flex;
+  gap: 30px;
 }
 /* flyttar ner texten så att den är mer i samma nivå av iconen  */
-.feature_squere_info{
-
-    margin-top: 30px;
+.feature_squere_info {
+  margin-top: 30px;
 }
 /* Ändrar font weighten samt ändrar font sizen */
-.feature_squere_info h2{
-
-    font-weight: 900;
-    font-size: 20px;
+.feature_squere_info h2 {
+  font-weight: 900;
+  font-size: 20px;
 }
 /* Ändrar fontsizen samt ändrar färgen på paragraph */
-.feature_squere_info p{
-
-    font-size: 14px;
-    color: #8a8a8a;
+.feature_squere_info p {
+  font-size: 14px;
+  color: #8a8a8a;
 }
-

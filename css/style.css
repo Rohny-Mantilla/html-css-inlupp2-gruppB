@@ -17,23 +17,54 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Navbar general start*/
+/* Navbar general */
 .container {
-  width: 100%;
+  width: 70%;
   margin: auto;
 }
-/* Navbar general end*/
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-orange {
+  background-color: #ffbb00;
+  color: #ffffff;
+  border: 2px solid transparent;
+}
+.button-transparent {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+.bg-header {
+  background-image: url(../img/rektangle_1.svg);
+  background-repeat: no-repeat;
+  /* background-size: 300vh; */
+  background-position-y: 92%;
+  background-position-x: 30%;
+}
+/* Navbar general */
 
 /* START --EC-Logo -- Magnus Ljung */
 .ec-logo {
   margin: 8rem 0;
- }
- .ec-logo .about-container {
+}
+.ec-logo .about-container {
   display: flex;
   justify-content: space-between;
   padding-left: 10rem;
   padding-right: 3rem;
- }
+}
 /* END --EC-Logo -- Magnus Ljung*/
 
 /* START --About Us-- Magnus Ljung*/
@@ -126,114 +157,46 @@ body {
 }
 /* END --About Us-- Magnus Ljung */
 
-
-
-/* HEADER START*/
-.header-bg {
-  background-image: url(../img/rektangle_1.svg);
-  background-repeat: no-repeat;
-  background-position-y: 92%;
-  background-position-x: 30%;
-  margin-bottom: 5rem;
+/* TOP-NAV START */
+.top-nav {
+  padding-top: 2rem;
 }
-
-/* top-nav start */
-.top-nav .container, .nav-bar .container{
-  padding: 2rem 0;
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-}
-.top-nav-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.top-nav-toggler {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  font-size: 1.8rem;
+.top-nav a,
+.nav-link {
   color: #ffffff;
-}
-.collapsen {
-  display: none;
-}
-.top-nav a, .nav-link {
   text-decoration: none;
-  color: #ffffff;
-  /* display: inline-block; */
+  list-style: none;
+  padding: 0.7rem;
+  display: inline-block;
   position: relative;
 }
-.button-orange {
-  padding: .7rem 2rem;
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: var(--cool-yellow);
-  color: #ffffff;
-  border: 2px solid var(--cool-yellow);
-}
-.button-orange:hover {
-  background-color: transparent;
-  border: 2px solid #ffffff;
-}
 .nav-link a:hover {
-  color: var(--cool-yellow);
+  color: orange;
 }
 .nav-link:hover::after {
   content: "";
-  border-bottom: 2px solid var(--cool-yellow);
+  border-bottom: 2px solid orange;
   position: absolute;
   left: 1rem;
   right: 1.5rem;
   bottom: 0.7rem;
 }
-/* top-nav end */
-
-
-
-/* nav-bar start */
+/* TOP-NAV END */
+/* NAVBAR START */
 .nav-bar {
   color: #ffffff;
 }
-.section-binder {
-  margin-bottom: 5rem;
-}
-.nav-bar h1 {
-  font-weight: 900;
-}
-.section-text p{
-  padding: 1rem 0;
-}
-.section-button {
+.section-btn {
   display: flex;
   align-items: center;
-  flex-direction: row;
 }
-.section-button img {
-  padding: 0 1rem;
+.watch-video img {
+  margin: 0 0.6rem 0 1rem;
 }
 .mobile {
-  display: none;
+  height: 35rem;
 }
-.button-transparent {
-  padding: .7rem 2rem;
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: transparent;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-}
-.button-transparent:hover {
-  background-color: #ffffff;
-  color: rgb(59, 177, 250);
-}
-/* nav-bar end*/
-/* HEADER END */
-
-
+/* NAVBAR END */
 /* carousle -- start */
 .content {
   display: flex;
@@ -255,11 +218,8 @@ body {
 }
 
 .carousel_container {
-
-
   max-width: 1440px;
   margin: auto;
-
   /* display: grid; */
   /* width: 80%;
   padding-top: 70px;
@@ -399,14 +359,16 @@ footer {
 
 /* media query */
 
-
-
 /* START - MAGNUS */
 @media (max-width: 1400px) {
-  .about-container {max-width: 1140px;}
+  .about-container {
+    max-width: 1140px;
+  }
 }
 @media (max-width: 1200px) {
-  .about-container {max-width: 960px;}
+  .about-container {
+    max-width: 960px;
+  }
   .about-bg {
     display: none;
   }
@@ -423,35 +385,20 @@ footer {
   }
 }
 @media (max-width: 992px) {
-  .about-container {max-width: 720px;}
+  .about-container {
+    max-width: 720px;
+  }
 }
 /* END - MAGNUS */
-
-
 @media (max-width: 768px) {
-
   .container {
     max-width: 720px;
   }
-
-  .top-nav-toggler {
-    display: none;
+  /* START - Magnus */
+  .about-container {
+    max-width: 540px;
   }
-  .collapsen {
-    display: block;
-  }
-  .top-nav-nav {
-    flex-direction: row;
-  }
-  .nav-bar .mobile {
-    display: inline-block;
-  }
-}
-@media (max-width: 375px) {
-  .container {
-    max-width: 320px;
-  }
-
+  /* END - Magnus */
 }
 /* @media (max-width: 576px) {
   
@@ -461,9 +408,3 @@ footer {
     max-width: 320px;
   }
 }
-
-
-
-
-
-
