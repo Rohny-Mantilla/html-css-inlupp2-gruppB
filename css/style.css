@@ -19,44 +19,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Navbar general */
-.container {
-  width: 70%;
-  margin: auto;
-}
-.flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-.button {
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.button-orange {
-  background-color: #ffbb00;
-  color: #ffffff;
-  border: 2px solid transparent;
-}
-.button-transparent {
-  background-color: transparent;
-  border: 2px solid #ffffff;
-  color: #ffffff;
-}
-.margin-bottom {
-  margin-bottom: 2rem;
-}
-.bg-header {
-  background-image: url(../img/rektangle_1.svg);
-  background-repeat: no-repeat;
-  /* background-size: 300vh; */
-  background-position-y: 92%;
-  background-position-x: 30%;
-}
-/* Navbar general */
-
 /* START --EC-Logo -- Magnus Ljung */
 .ec-logo {
   margin: 8rem 0;
@@ -169,6 +131,8 @@ body {
 
 /* top-nav start */
 .top-nav .container, .nav-bar .container{
+  width: 100%;
+  margin: auto;
   padding: 2rem 0;
   display: flex;
   flex-direction: row;
@@ -178,7 +142,7 @@ body {
 }
 .top-nav-brand {
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
 }
 .top-nav-nav {
   display: flex;
@@ -198,9 +162,22 @@ body {
 }
 .top-nav a, .nav-link {
   text-decoration: none;
+  padding-right: 1rem;
   color: #ffffff;
   /* display: inline-block; */
   position: relative;
+  list-style: none;
+}
+.nav-link:hover::after {
+  content: "";
+  border-bottom: 2px solid var(--cool-yellow);
+  position: absolute;
+  left: 0rem;
+  right: 1.5rem;
+  bottom: -.1rem;
+}
+.nav-link a:hover {
+  color: var(--cool-yellow);
 }
 .button-orange {
   padding: .7rem 2rem;
@@ -214,17 +191,6 @@ body {
   background-color: transparent;
   border: 2px solid #ffffff;
 }
-.nav-link a:hover {
-  color: var(--cool-yellow);
-}
-.nav-link:hover::after {
-  content: "";
-  border-bottom: 2px solid var(--cool-yellow);
-  position: absolute;
-  left: 1rem;
-  right: 1.5rem;
-  bottom: 0.7rem;
-}
 /* top-nav end */
 
 
@@ -237,9 +203,12 @@ body {
   margin-bottom: 5rem;
 }
 .nav-bar h1 {
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
 }
 .section-text p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   padding: 1rem 0;
 }
 .section-button {
@@ -252,6 +221,8 @@ body {
 }
 .mobile {
   display: inline-block;
+  position: relative;
+  left: 50px;
 }
 .button-transparent {
   padding: .7rem 2rem;
@@ -407,13 +378,14 @@ footer {
 /* media query */
 
 /* START - HEADER */
+
 @media (max-width: 1400px) {
   .container {
     max-width: 1140px;
   }
   .header-bg {
     background-repeat: no-repeat;
-    background-position-y: -1200%;
+    background-position-y: 300%;
     background-position-x: 30%;
   }
 }
