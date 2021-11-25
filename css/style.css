@@ -288,31 +288,88 @@ body {
 }
 /* carousle -- end */
 
+
 /* START - Contact Us - Magnus */
 #Contact-Us {
   margin: 8rem 0;
+  background-color: #fff;
+}
+#Contact-Us .contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .contact-container {
   width: 100%;
   max-width: 1170px;
   margin: auto;
 }
-
+.contact-title {
+  max-width: 537px;
+  margin-bottom: 3.4rem;
+}
 .contact-title h1 {
   font-size: 40px;
   font-weight: 900;
   letter-spacing: 2px;
   color: #333333;
+  margin-bottom: 1.25rem;
 }
-.contact-text p {
+.contact-title p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   color: #8a8a8a;
 }
-
-
+.contact-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.form-control {
+  width: 100%;
+  background-color: #fbfbfb;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact-name input::placeholder {
+  color: #CCC;
+}
+.contact-email input::placeholder {
+  color: #CCC;
+}
+.contact-message textarea::placeholder {
+  color: #CCC;
+}
+.contact-message {
+  width: 100%;
+  height: 15rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+}
+.contact-message textarea {
+  height: 100%;
+}
+.contact-button {
+  background-color: #3096fe;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 1.25rem 5.75rem;
+  cursor: pointer;
+}
 /* END - Contact Us - Magnus */
+
 
 /* footer -- start */
 footer {
@@ -361,12 +418,13 @@ footer {
 
 /* START - MAGNUS */
 @media (max-width: 1400px) {
-  .about-container {
+  .about-container, .contact-container {
     max-width: 1140px;
   }
+  
 }
 @media (max-width: 1200px) {
-  .about-container {
+  .about-container, .contact-container {
     max-width: 960px;
   }
   .about-bg {
@@ -385,7 +443,7 @@ footer {
   }
 }
 @media (max-width: 992px) {
-  .about-container {
+  .about-container, .contact-container {
     max-width: 720px;
   }
 }
@@ -395,8 +453,11 @@ footer {
     max-width: 720px;
   }
   /* START - Magnus */
-  .about-container {
+  .about-container, .contact-container {
     max-width: 540px;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
   }
   /* END - Magnus */
 }
