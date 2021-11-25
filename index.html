@@ -8,63 +8,54 @@
     <!-- CSS only -->
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <link
-
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    /> Kommenterade bort Bootstrap - MAGNUS LJUNG -->
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="css/henric-css.css" />
   </head>
   <body>
-
-    <!-- TOP-NAV START -->
-    <div class="header-bg">
-    
+    <div class="bg-header">
+      <!-- TOP-NAV START -->
       <nav class="top-nav">
-        <div class="container">
-          <a href="#" class="top-nav-brand"><img src="./img/logo.svg" alt="" /></a>
-          <button class="top-nav-toggler">
-            <i class="fas fa-bars"></i>
-          </button>
-
-          <div class="collapsen">
-            <ul class="top-nav-nav">
-              <li class="nav-link"><a href="#">Home</a></li>
-              <li class="nav-link"><a href="#">About Us</a></li>
-              <li class="nav-link"><a href="#">Features</a></li>
-              <li class="nav-link"><a href="#">Screens</a></li>
-              <li class="nav-link"><a href="#">Contact Us</a></li>
-              <button class="button-orange">Get the app</button>
-            </ul>
-          </div>
+        <div class="container flex margin-bottom">
+          <a href="#" class="nav-brand"><img src="./img/logo.svg" alt="" /></a>
+          <ul class="navbar-nav flex">
+            <li class="nav-link active"><a href="#">Home</a></li>
+            <li class="nav-link"><a href="#">About Us</a></li>
+            <li class="nav-link"><a href="#">Features</a></li>
+            <li class="nav-link"><a href="#">Screens</a></li>
+            <li class="nav-link"><a href="#">Contact Us</a></li>
+            <button class="button button-orange">Get the app</button>
+          </ul>
         </div>
       </nav>
       <!-- TOP-NAV END -->
-
-      <!-- NAV-BAR START -->
+      <!-- NAVBAR START -->
       <section class="nav-bar">
-        <div class="container">
-
-          <div class="section-binder">
-            <div class="section-text">
-              <h1>Creative Way to Showcase Your App</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente saepe consequatur eius, impedit dolorem.</p>
-              <div class="section-button">
-                <button class="button-transparent">Download Now</button>
+        <div class="container flex">
+          <div class="text margin-bottom">
+            <h1 class="margin-bottom">Creative Way to Showcase Your App</h1>
+            <p class="margin-bottom">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              sapiente saepe consequatur eius, impedit dolorem.
+            </p>
+            <div class="section-btn">
+              <button class="button button-transparent">Download Now</button>
+              <div class="watch-video flex">
                 <a href="#"><img src="./img/watch-icon.svg" alt="" /></a>
                 <p>Watch Video</p>
               </div>
@@ -74,148 +65,163 @@
           <img class="mobile" src="./img/mobile.svg" alt="" />
         </div>
       </section>
-      <!-- NAV-BAR END -->
-      
-      
-      
-      <!-- START --EC-Logo -- Magnus Ljung -->
-      <div class="ec-logo">
-        <div class="about-container">
-          <img src="./img/ec-logo-mono.svg" alt="EC-Logo">
-          <img src="./img/ec-logo-mono.svg" alt="EC-Logo">
-          <img src="./img/ec-logo-mono.svg" alt="EC-Logo">
-          <img src="./img/ec-logo-mono.svg" alt="EC-Logo">
+      <!-- NAVBAR END -->
+    </div>
+
+    <!-- START --EC-Logo -- Magnus Ljung -->
+    <div class="ec-logo">
+      <div class="about-container">
+        <img src="./img/ec-logo-mono.svg" alt="EC-Logo" />
+        <img src="./img/ec-logo-mono.svg" alt="EC-Logo" />
+        <img src="./img/ec-logo-mono.svg" alt="EC-Logo" />
+        <img src="./img/ec-logo-mono.svg" alt="EC-Logo" />
+      </div>
+    </div>
+    <!-- END  --EC-Logo -- Magnus Ljung -->
+
+    <!-- START --About Us-- Magnus Ljung-->
+    <section id="About-Us">
+      <div class="about-container">
+        <!--COLUMN 1: Bakgrund och iPhone bild-->
+        <div class="about-bg">
+          <img src="./img/iPhone.svg" alt="" />
+        </div>
+        <!--COLUMN 2: Text och knappar-->
+        <div class="text-wrapper">
+          <!-- HEAD -->
+          <div class="about-head">
+            <p>About Us</p>
+          </div>
+          <!-- RUBRIK -->
+          <div class="about-heading">
+            <h1>
+              Easy To Serach Your Items<br />
+              By This App
+            </h1>
+          </div>
+          <!-- TEXT -->
+          <div class="about-text">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum
+            </p>
+          </div>
+          <!-- KNAPPAR -->
+          <div class="btn-flex">
+            <!-- GOOGLE PLAY -->
+            <button class="getApp-btn">
+              <div class="btn-image">
+                <img src="./img/Google_Play.svg" alt="" />
+              </div>
+              <div class="btn-text">
+                <small>Get it from</small>
+                <p>Google Play</p>
+              </div>
+            </button>
+            <!-- APP STORE -->
+            <button class="getApp-btn">
+              <div class="btn-image">
+                <img src="./img/App_Store.svg" alt="" />
+              </div>
+              <div class="btn-text">
+                <small>Download on the</small>
+                <p>App Store</p>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
-      <!-- END  --EC-Logo -- Magnus Ljung -->
-      
-      <!-- START --About Us-- Magnus Ljung-->
-      <section id="About-Us">
-        <div class="about-container">
-          
-          <!--COLUMN 1: Bakgrund och iPhone bild-->
-          <div class="about-bg">
-            <img src="./img/iPhone.svg" alt="" />
-          </div>
-          <!--COLUMN 2: Text och knappar-->
-          <div class="text-wrapper">
-            
-            <!-- HEAD -->
-            <div class="about-head">
-              <p>About Us</p>
-            </div>
-            <!-- RUBRIK -->
-            <div class="about-heading">
-              <h1>Easy To Serach Your Items<br> By This App</h1>
-            </div>
-            <!-- TEXT -->
-            <div class="about-text">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
-              </p>
-            </div>
-            <!-- KNAPPAR -->
-            <div class="btn-flex">
-              <!-- GOOGLE PLAY -->
-              <button class="getApp-btn">
-                <div class="btn-image">
-                  <img src="./img/Google_Play.svg" alt="" />
-                </div>
-                <div class="btn-text">
-                  <small>Get it from</small>
-                  <p>Google Play</p>
-                </div>
-              </button>
-              <!-- APP STORE -->
-              <button class="getApp-btn">
-                <div class="btn-image">
-                  <img src="./img/App_Store.svg" alt="" />
-                </div>
-                <div class="btn-text">
-                  <small>Download on the</small>
-                  <p>App Store</p>
-                </div>
-              </button>
-            </div>
-            
-          </div>
-          
-        </div>
-      </section>
-      <!-- END --About Us-- Magnus Ljung-->
-    </div>
-     
+    </section>
+    <!-- END --About Us-- Magnus Ljung-->
 
     <!-- START FEATURES Henric -->
-    <section id = "features">
-      <img src="img/Repeatgrid.svg" alt="Repeatgrid" id="features_repeat_grid">
+    <section id="features">
+      <img
+        src="img/Repeatgrid.svg"
+        alt="Repeatgrid"
+        id="features_repeat_grid"
+      />
       <div id="features_container">
+        <div id="features_information">
+          <div>
+            <div class="features_head">
+              <p id="features_icon_text">Features</p>
+            </div>
+          </div>
 
-         <div id="features_information">
+          <h1>
+            Easy To Search Your Items <br />
+            By This App
+          </h1>
 
-            <div>
-              <div class="features_head">
-                <p id="features_icon_text">Features</p>
-              </div>
-           </div>
-        
-           <h1>  Easy To Search Your Items <br>
-             By This App
-           </h1>
+          <p id="features_paragraph_info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. <br />
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the <br />
+            1500s, when an unknown printer took a galley of type and scrambled
+          </p>
 
-           <p id="features_paragraph_info"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> 
-               Lorem Ipsum has been the industry's standard dummy text ever since the <br> 
-               1500s, when an unknown printer took a galley of type and scrambled 
-            </p>
-
-           <div id="feature_list">
-              <div class="feature_squere_row">
+          <div id="feature_list">
+            <div class="feature_squere_row">
+              <div class="feature_squere">
+                <img src="img/easeofsearchicon.svg" alt="" />
+                <div class="feature_squere_info">
+                  <h2>Ease of search</h2>
+                  <p>
+                    Lorem Ipsum is simply dummy text <br />
+                    of the printing industry.
+                  </p>
+                </div>
                 <div class="feature_squere">
-                  <img src="img/easeofsearchicon.svg" alt="">
-                  <div class="feature_squere_info">
-                    <h2>Ease of search</h2>
-                    <p>Lorem Ipsum is simply dummy text <br> of the printing industry. </p>
-                 </div>
-                 <div class="feature_squere">
-                   <img src="img/manageyourads.svg" alt="">
+                  <img src="img/manageyourads.svg" alt="" />
                   <div class="feature_squere_info">
                     <h2>Manage your ads</h2>
-                    <p>Lorem Ipsum is simply dummy text <br> of the printing industry. </p>
-                   </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text <br />
+                      of the printing industry.
+                    </p>
+                  </div>
                 </div>
-               </div>
-             </div>
+              </div>
+            </div>
 
             <div class="feature_squere_row">
               <div class="feature_squere">
-                  <img src="img/easemain.svg" alt="">
-                  <div class="feature_squere_info">
-                   <h2>Ease main</h2>
-                   <p>Lorem Ipsum is simply dummy text <br> of the printing industry. </p>
-                  </div>
-                <div class="feature_squere">
-                   <img src="img/ongoingsupport.svg" alt="">
-                 <div class="feature_squere_info">
-                     <h2>Ongoing support</h2>
-                     <p>Lorem Ipsum is simply dummy text <br> of the printing industry. </p>
-                    </div>
+                <img src="img/easemain.svg" alt="" />
+                <div class="feature_squere_info">
+                  <h2>Ease main</h2>
+                  <p>
+                    Lorem Ipsum is simply dummy text <br />
+                    of the printing industry.
+                  </p>
                 </div>
-               </div>
-             </div>
-
+                <div class="feature_squere">
+                  <img src="img/ongoingsupport.svg" alt="" />
+                  <div class="feature_squere_info">
+                    <h2>Ongoing support</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text <br />
+                      of the printing industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-         
-        
-         </div>
-         <div id = "features_mobile_icon">
-          <img src="img/features_mobile.svg" alt="features_mobile.svg">
+          </div>
         </div>
-       </div>
+        <div id="features_mobile_icon">
+          <img src="img/features_mobile.svg" alt="features_mobile.svg" />
+        </div>
+      </div>
     </section>
     <!-- SLUT FEATURES Henric -->
-
-
-
 
     <!-- START CAROUSEL Rohny -->
     <section>
