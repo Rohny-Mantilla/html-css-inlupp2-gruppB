@@ -6,6 +6,8 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   loop: true,
   setWrapperSize: true,
+  slideActiveClass: "centrum",
+  slideBlankClass: "resten",
   coverflowEffect: {
     rotate: 0,
     stretch: -40,
@@ -14,7 +16,7 @@ var swiper = new Swiper(".mySwiper", {
     slideShadows: false,
   },
   breakpoints: {
-    970: {
+    768: {
       slidesPerView: 5,
       spaceBetween: 30,
     },

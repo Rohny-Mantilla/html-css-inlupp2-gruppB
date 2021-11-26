@@ -24,6 +24,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="css/henric-css.css" />
   </head>
@@ -274,20 +276,20 @@
               industry. Lorem Ipsum has been the industry's
             </p>
           </div>
-          <div class="stats">
-            <div>
+          <div class="stats" data-aos="fade-up" data-aos-duration="900">
+            <div class="stats-info element1">
               <h2>+ 1430</h2>
               <p>Clients</p>
             </div>
-            <div>
+            <div class="stats-info element2">
               <h2>+ 2430</h2>
               <p>Beneficiaries</p>
             </div>
-            <div>
+            <div class="stats-info element3">
               <h2>+ 1430</h2>
               <p>Positive reviewers</p>
             </div>
-            <div>
+            <div class="stats-info element4">
               <h2>+ 10.430</h2>
               <p>Downloads</p>
             </div>
@@ -400,5 +402,9 @@
     <!-- SCRIPTS -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
