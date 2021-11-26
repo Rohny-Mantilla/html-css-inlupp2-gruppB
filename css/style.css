@@ -372,49 +372,34 @@ body {
 
 
 /* footer -- start */
-footer {
-  text-align: center;
-  color: #fff;
-  padding: 20px;
-  bottom: 0;
+.container-footer {
   width: 100%;
 }
+
 .footer-1 {
   background-image: url("../img/Bg.svg");
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  padding: 2rem;
-  color: #fff;
+  padding: 3rem;
+  text-align: center;
 }
-.logo {
-  margin: auto;
-  padding: 0 auto 0.5rem;
-}
-.footer_content {
+
+.footer-content {
   display: flex;
   justify-content: center;
-  margin: 1rem auto 1rem;
   list-style: none;
+  padding: .8rem 0 2rem;
 }
-.footer_content li {
-  align-items: center;
-  font-size: 16px;
-  font-weight: bold;
+
+.footer-link {
+  font-size: 14px;
 }
-.footer_content a {
+
+.footer-link a {
   color: #fff;
   text-decoration: none;
-  grid-column: 7px;
   padding: 18px 20px;
+  font-weight: bold;
 }
 
-.footer_content {
-  margin: 0;
-  padding: 1rem auto 0rem;
-}
-
-/* media query */
 
 /* START - MAGNUS */
 @media (max-width: 1400px) {
@@ -470,3 +455,16 @@ footer {
     max-width: 320px;
   }
 }
+
+/* YASMIN START */
+
+@media (max-width:590px) {
+  .footer-content{
+    display: none;
+    /* padding: 16px 18px; */
+  }
+  .container-footer img {
+    margin-bottom: 16px;
+  }
+}
+
