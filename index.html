@@ -7,10 +7,16 @@
     <title>Document</title>
     <!-- CSS only -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -62,89 +68,160 @@
       <!-- NAVBAR END -->
     </div>
 
-    <!-- START TEST Magnus  -->
-
     <!-- START --EC-Logo -- Magnus Ljung -->
-    <!-- Bootstrap classer: .container, .row, .col, .offset, .ms-->
-
     <div class="ec-logo">
-      <div class="container">
-        <div class="row offset-1">
-          <div class="col ms-5">
-            <img src="./img/ec-logo-mono.svg" alt="" />
-          </div>
-          <div class="col"><img src="./img/ec-logo-mono.svg" alt="" /></div>
-          <div class="col"><img src="./img/ec-logo-mono.svg" alt="" /></div>
-          <div class="col"><img src="./img/ec-logo-mono.svg" alt="" /></div>
-        </div>
+      <div class="about-container">
+        <img src="./img/ec-logo-mono.svg" alt="EC-Logo" />
+        <img src="./img/ec-logo-mono.svg" alt="EC-Logo" />
+        <img src="./img/ec-logo-mono.svg" alt="EC-Logo" />
+        <img src="./img/ec-logo-mono.svg" alt="EC-Logo" />
       </div>
     </div>
     <!-- END  --EC-Logo -- Magnus Ljung -->
 
     <!-- START --About Us-- Magnus Ljung-->
-    <!-- Bootstrap classer: .container, .d-flex, .row, .col, offset, .align-items-center-->
     <section id="About-Us">
-      <div class="container">
-        <div class="row align-items-center">
-          <!--COLUMN 1: Bakgrund och iPhone bild-->
-          <div class="col about-bg">
-            <img src="./img/iPhone.svg" alt="" />
+      <div class="about-container">
+        <!--COLUMN 1: Bakgrund och iPhone bild-->
+        <div class="about-bg">
+          <img src="./img/iPhone.svg" alt="" />
+        </div>
+        <!--COLUMN 2: Text och knappar-->
+        <div class="text-wrapper">
+          <!-- HEAD -->
+          <div class="about-head">
+            <p>About Us</p>
           </div>
-          <!--COLUMN 2: Text och knappar-->
-          <div class="col offset-1">
-            <div class="text-wrapper">
-              <!-- HEAD -->
-              <div class="about-head">
-                <p>About Us</p>
+          <!-- RUBRIK -->
+          <div class="about-heading">
+            <h1>
+              Easy To Serach Your Items<br />
+              By This App
+            </h1>
+          </div>
+          <!-- TEXT -->
+          <div class="about-text">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum
+            </p>
+          </div>
+          <!-- KNAPPAR -->
+          <div class="btn-flex">
+            <!-- GOOGLE PLAY -->
+            <button class="getApp-btn">
+              <div class="btn-image">
+                <img src="./img/Google_Play.svg" alt="" />
               </div>
-              <!-- RUBRIK -->
-              <div class="about-heading">
-                <h1>Easy To Serach Your Items By This App</h1>
+              <div class="btn-text">
+                <small>Get it from</small>
+                <p>Google Play</p>
               </div>
-              <!-- TEXT -->
-              <div class="about-text">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
-                  error assumenda ad illo eos modi inventore commodi officiis,
-                  dolor nesciunt minus, laboriosam sit sunt quos numquam aperiam
-                  exercitationem at, optio eius eaque totam cumque. Illum
-                  molestiae doloremque at sed cupiditate. Ipsum eum ea minus
-                  alias temporibus laudantium rem commodi provident soluta
-                  animi? Nihil, vero? Dolorum amet soluta odit cum quas,
-                  cupiditate in debitis? Distinctio, ad. Tenetur minima ratione
-                  optio deleniti vel recusandae perferendis velit explicabo!
-                  Velit esse illo error numquam.
-                </p>
+            </button>
+            <!-- APP STORE -->
+            <button class="getApp-btn">
+              <div class="btn-image">
+                <img src="./img/App_Store.svg" alt="" />
               </div>
-              <!-- KNAPPAR -->
-              <div class="d-flex">
-                <!-- GOOGLE PLAY -->
-                <button class="getApp-btn">
-                  <div class="btn-image">
-                    <img src="./img/Google_Play.svg" alt="" />
-                  </div>
-                  <div class="btn-text">
-                    <small>Get it from</small>
-                    <p>Google Play</p>
-                  </div>
-                </button>
-                <!-- APP STORE -->
-                <button class="getApp-btn">
-                  <div class="btn-image">
-                    <img src="./img/App_Store.svg" alt="" />
-                  </div>
-                  <div class="btn-text">
-                    <small>Download on the</small>
-                    <p>App Store</p>
-                  </div>
-                </button>
+              <div class="btn-text">
+                <small>Download on the</small>
+                <p>App Store</p>
               </div>
-            </div>
+            </button>
           </div>
         </div>
       </div>
     </section>
     <!-- END --About Us-- Magnus Ljung-->
+
+    <!-- START FEATURES Henric -->
+    <section id="features">
+      <img
+        src="img/Repeatgrid.svg"
+        alt="Repeatgrid"
+        id="features_repeat_grid"
+      />
+      <div id="features_container">
+        <div id="features_information">
+          <div>
+            <div class="features_head">
+              <p id="features_icon_text">Features</p>
+            </div>
+          </div>
+
+          <h1>
+            Easy To Search Your Items <br />
+            By This App
+          </h1>
+
+          <p id="features_paragraph_info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. <br />
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the <br />
+            1500s, when an unknown printer took a galley of type and scrambled
+          </p>
+
+          <div id="feature_list">
+            <div class="feature_squere_row">
+              <div class="feature_squere">
+                <img src="img/easeofsearchicon.svg" alt="" />
+                <div class="feature_squere_info">
+                  <h2>Ease of search</h2>
+                  <p>
+                    Lorem Ipsum is simply dummy text <br />
+                    of the printing industry.
+                  </p>
+                </div>
+                <div class="feature_squere">
+                  <img src="img/manageyourads.svg" alt="" />
+                  <div class="feature_squere_info">
+                    <h2>Manage your ads</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text <br />
+                      of the printing industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature_squere_row">
+              <div class="feature_squere">
+                <img src="img/easemain.svg" alt="" />
+                <div class="feature_squere_info">
+                  <h2>Ease main</h2>
+                  <p>
+                    Lorem Ipsum is simply dummy text <br />
+                    of the printing industry.
+                  </p>
+                </div>
+                <div class="feature_squere">
+                  <img src="img/ongoingsupport.svg" alt="" />
+                  <div class="feature_squere_info">
+                    <h2>Ongoing support</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text <br />
+                      of the printing industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="features_mobile_icon">
+          <img src="img/features_mobile.svg" alt="features_mobile.svg" />
+        </div>
+      </div>
+    </section>
+    <!-- SLUT FEATURES Henric -->
 
     <!-- START CAROUSEL Rohny -->
     <section>
@@ -162,13 +239,29 @@
           </div>
         </div>
         <div class="carousel_container">
-          <img src="./img/iPhone-X.svg" alt="" />
-          <img src="./img/iPhone-X.svg" alt="" />
-          <img src="./img/iPhone-X.svg" alt="" />
-          <img src="./img/iPhone-X.svg" alt="" />
-          <img src="./img/iPhone-X.svg" alt="" />
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/iPhone-X.svg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/iPhone-X.svg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/iPhone-X.svg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/iPhone-X.svg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/iPhone-X.svg" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
       </div>
+
       <div class="app_stats">
         <div class="content">
           <div class="content_title">
@@ -207,11 +300,11 @@
     <!-- START BANNER Henric -->
 
     <div class="banner">
-      <img
+      <!-- <img
         src="./img/bannerbackground.svg"
         alt="banner-background-image"
         id="banner_background"
-      />
+      /> -->
       <div class="banner_information">
         <h1 id="banner_heading">
           Download the application now <br />
@@ -251,24 +344,26 @@
     <!-- SLUT BANNER Henric -->
     <!-- START FOOTER YASMIN -->
 
-    <div class="container-bg">
+    <div class="container-footer">
       <footer class="footer-1">
       <img src="./img/logo.svg" alt="">
-      
     
-      <ul class="footer_content">
-        <li><a href="#" class="link">Home</a></li>
-        <li><a href="#" class="link">About us</a></li>
-        <li><a href="#" class="link">Features</a></li>
-        <li><a href="#" class="link">Screens</a></li>
-        <li><a href="#" class="link">Contact Us</a></li>
+      <ul class="footer-content">
+        <li class="footer-link"><a href="#">Home</a></li>
+        <li class="footer-link"><a href="#">About us</a></li>
+        <li class="footer-link"><a href="#">Features</a></li>
+        <li class="footer-link"><a href="#">Screens</a></li>
+        <li class="footer-link"><a href="#">Contact Us</a></li>
       </ul>
-
-      <div class="sociala-medier">
+    <div class="sociala-medier">
         <img src="./img/Social.svg" alt="" />
       </div>
     </div>
 
     </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
