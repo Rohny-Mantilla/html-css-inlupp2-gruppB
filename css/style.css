@@ -125,7 +125,7 @@ body {
 .header-bg {
   background-image: url(../img/rektangle_1.svg);
   background-repeat: no-repeat;
-  background-position-y: 130%;
+  background-position-y: 110%;
   background-position-x: 35%;
 }
 
@@ -383,21 +383,21 @@ footer {
   .container {
     max-width: 1140px;
   }
-  .header-bg {
+  /* .header-bg {
     background-repeat: no-repeat;
     background-position-y: 300%;
     background-position-x: 30%;
-  }
+  } */
 }
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
   }
-  .header-bg {
+  /* .header-bg {
     background-repeat: no-repeat;
-    background-position-y: 350%;
-    background-position-x: 35%;
-  }
+    background-position-y: 2000%;
+    background-position-x: 3005%;
+  } */
 }
 @media (max-width: 992px) {
 
@@ -421,21 +421,21 @@ footer {
   .nav-bar .mobile {
     display: none;
   }
-  .header-bg {
+  /* .header-bg {
     background-repeat: no-repeat;
     background-position-y: 170%;
     background-position-x: 35%;
-  }
+  } */
 }
 @media (max-width: 375px) {
   .container {
     max-width: 320px;
   }
-  .header-bg {
+  /* .header-bg {
     background-repeat: no-repeat;
     background-position-y: 200%;
-    background-position-x: 35%;
-  }
+    background-position-x: 305%;
+  } */
 }
 /* END - HEADER */
 
