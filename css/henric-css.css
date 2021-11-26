@@ -72,6 +72,7 @@
   background-color: white;
   border: none;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 /* Fixar så att googleplay och apple iconen blir mer centrerad */
@@ -89,7 +90,10 @@
   font-size: 12px;
   text-align: left;
   margin: 0px;
+  padding-top: 3px;
   color: #6b6b6b;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 /* Fixar färg,gör texten bold, font storklek samt gör att att texten börjar direkt till vänster  */
 .banner_buttons .banner_bottom_text {
@@ -97,7 +101,9 @@
   font-weight: bold;
   text-align: left;
   margin: 0px;
+  padding-top: 4px;
   color: #111111;
+  font-family: "Roboto", sans-serif;
 }
 
 /* SLUT BANNER Henric */
@@ -128,7 +134,7 @@
 #features_container{
     display: flex;
     justify-content: center;
-    margin-left: 130px;
+    /* margin-left: 130px; */
     /* margin-bottom: 100px; */
     gap: 10px;
 }
@@ -170,11 +176,15 @@
     color: #8a8a8a;
 
 }
+.feature_squere_row{
+    display: flex;
+    gap: 60px;
+}
 /* Gör så att diven använder flex samt ändrar gappet mellan iconen och texten */
 .feature_squere{
 
     display: flex;
-    gap: 30px;  
+    gap: 20px;  
 }
 /* flyttar ner texten så att den är mer i samma nivå av iconen  */
 .feature_squere_info {
@@ -191,40 +201,83 @@
   color: #8a8a8a;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     
     /* Tablet Banner */
     #banner_bundled_phones{
-        display: none;
+      display: none;
     }
     .banner_buttons{
-        justify-content: center;
-        padding-bottom: 100px;
-
-        
+      justify-content: center;
+      padding-bottom: 100px;  
     }
     #banner_heading{
-        text-align: center;
+      text-align: center;
     }
     #banner_info_text{
-       text-align: center;
+      text-align: center;
     }
 
     /* Tablet Features */
     #features_mobile_icon{
-        display: none;
+      display: none;
     }
 
     #features_container {
-       justify-content: center;
-       margin-left: -45px;
+      justify-content: center;
+      margin-left: -45px;
     }
     #features_repeat_grid{
-        display: none;
+      display: none;
         
     }
     
     
+    
 
 }
+@media (max-width: 1660px) {
+  #features_repeat_grid{
+    display: none;
+  }
+}
 
+
+@media (max-width: 425px) {
+
+  .banner_buttons{
+    flex-direction: column;
+    align-items: center;
+  }
+  #banner_heading{
+    font-size: 38px !important;
+  }
+  #banner_info_text{
+    font-size: 14px !important;
+  }
+  .feature_squere_row{
+    flex-direction: column;
+    gap: 10px;
+  }
+  #features_information{
+    margin-left: 0px;
+    padding: 70px;
+    max-width: 400px;
+  }
+  #features_container {
+    margin-left: 0px;
+  }
+  #features_paragraph_info
+  {
+    display: none;
+  }
+  #features_information h1
+  {
+    display: none;
+  }
+  #features{
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+   
+}
