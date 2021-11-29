@@ -2,7 +2,7 @@ var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
-  spaceBetween: 20,
+  spaceBetween: 10,
   slidesPerView: 3,
   loop: true,
   setWrapperSize: true,
@@ -16,7 +16,11 @@ var swiper = new Swiper(".mySwiper", {
     slideShadows: false,
   },
   breakpoints: {
-    768: {
+    590: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    992: {
       slidesPerView: 5,
       spaceBetween: 30,
     },
