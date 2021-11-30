@@ -99,6 +99,10 @@ body {
   align-items: center;
   cursor: pointer;
 }
+.getApp-btn:hover {
+  box-shadow: 1px 5px 10px  #1823296b;
+  transition-duration: 0.3s;
+}
 .btn-image {
   margin: 0 1.5rem;
 }
