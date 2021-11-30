@@ -427,6 +427,11 @@ body {
   padding: 1.25rem 5.75rem;
   cursor: pointer;
 }
+.contact-button:hover {
+  background-color: var(--cool-yellow);
+  box-shadow: 1px 5px 10px  #1823296b;
+  transition-duration: 0.3s;
+}
 /* END - Contact Us - Magnus */
 
 /* footer -- start */
