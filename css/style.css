@@ -139,6 +139,7 @@ body {
   list-style: none;
   justify-content: space-between;
   align-items: center;
+  /* border: 2px solid black; */
 }
 .top-nav-brand {
   font-family: 'Poppins', sans-serif;
@@ -202,13 +203,19 @@ body {
 .section-binder {
   margin-bottom: 5rem;
 }
-.nav-bar h1 {
+.header .nav-bar .container .section-text h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 900;
+  font-weight: 100px;
+}
+.section-text h1{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 160%;
 }
 .section-text p{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 200%;
   padding: 1rem 0;
 }
 .section-button {
@@ -477,10 +484,21 @@ body {
 
 
 /* START - HEADER */
-
+@media (max-width: 2000px) {
+  .container {
+    max-width: 1300px;
+    border: 2px solid pink;
+  }
+  .header-bg {
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position-x: 60%;
+  }
+}
 @media (max-width: 1400px) {
   .container {
     max-width: 1140px;
+    border: 2px solid green;
   }
   /* .header-bg {
     background-repeat: no-repeat;
@@ -491,6 +509,7 @@ body {
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
+    border: 2px solid blue;
   }
   /* .header-bg {
     background-repeat: no-repeat;
@@ -502,6 +521,7 @@ body {
 
   .container {
     max-width: 720px;
+    border: 2px solid yellow;
   }
   .top-nav .container, 
   .nav-bar .container {
@@ -520,22 +540,22 @@ body {
   .nav-bar .mobile {
     display: none;
   }
-  /* .header-bg {
+  .header-bg {
     background-repeat: no-repeat;
-    background-position-y: 170%;
-    background-position-x: 35%;
-  } */
+    background-position-y: 90%;
+    background-position-x: 25%;
+  }
 }
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .container {
     max-width: 320px;
   }
-  /* .header-bg {
+  .header .header-bg {
     background-repeat: no-repeat;
-    background-position-y: 200%;
-    background-position-x: 305%;
-  } */
-}
+    background-position-y: 100%;
+    background-position-x: 500%;
+  }
+} */
 /* END - HEADER */
 
 /* START - MAGNUS */
