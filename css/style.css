@@ -140,6 +140,7 @@ body {
   list-style: none;
   justify-content: space-between;
   align-items: center;
+  /* border: 2px solid black; */
 }
 .top-nav-brand {
   font-family: "Poppins", sans-serif;
@@ -202,13 +203,21 @@ body {
 .section-binder {
   margin-bottom: 5rem;
 }
-.nav-bar h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
+
+.header .nav-bar .container .section-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100px;
 }
-.section-text p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+.section-text h1{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 160%;
+}
+.section-text p{
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 200%;
+
   padding: 1rem 0;
 }
 .section-button {
@@ -446,14 +455,46 @@ body {
   color: #fff;
   text-decoration: none;
   padding: 18px 20px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-/* START - HEADER */
+.btn {
+  margin: 0 .5rem;
+  color: #fff;
+  width: 1.9rem;
+  height: 1.7rem;
+  border: none;
+  border-radius: 8px;
+  font-size: .8rem;
 
+}
+.btn1 {
+  fill: transparent;
+  border: none;
+  background: #5eaefe9c;
+}
+.btn1:hover {
+  background: #ffbb00;
+  box-shadow: 0 0 2px #2b2926b4;
+}
+
+
+/* START - HEADER */
+@media (max-width: 2000px) {
+  .container {
+    max-width: 1300px;
+    border: 2px solid pink;
+  }
+  .header-bg {
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position-x: 60%;
+  }
+}
 @media (max-width: 1400px) {
   .container {
     max-width: 1140px;
+    border: 2px solid green;
   }
   /* .header-bg {
     background-repeat: no-repeat;
@@ -464,6 +505,7 @@ body {
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
+    border: 2px solid blue;
   }
   /* .header-bg {
     background-repeat: no-repeat;
@@ -474,6 +516,7 @@ body {
 @media (max-width: 992px) {
   .container {
     max-width: 720px;
+    border: 2px solid yellow;
   }
   .top-nav .container,
   .nav-bar .container {
@@ -492,22 +535,22 @@ body {
   .nav-bar .mobile {
     display: none;
   }
-  /* .header-bg {
+  .header-bg {
     background-repeat: no-repeat;
-    background-position-y: 170%;
-    background-position-x: 35%;
-  } */
+    background-position-y: 90%;
+    background-position-x: 25%;
+  }
 }
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .container {
     max-width: 320px;
   }
-  /* .header-bg {
+  .header .header-bg {
     background-repeat: no-repeat;
-    background-position-y: 200%;
-    background-position-x: 305%;
-  } */
-}
+    background-position-y: 100%;
+    background-position-x: 500%;
+  }
+} */
 /* END - HEADER */
 
 /* START - MAGNUS */
@@ -544,28 +587,35 @@ body {
     max-width: 720px;
   }
 }
-/* END - MAGNUS */
 @media (max-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-  /* START - Magnus */
-  .about-container,
-  .contact-container {
+
+ 
+
+  .about-container, .contact-container {
     max-width: 540px;
   }
+  
   .contact-grid {
     grid-template-columns: 1fr;
   }
-  /* END - Magnus */
 }
-/* END - HEADER */
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 320px;
+@media(max-width: 576px) {
+  .text-wrapper {
+    max-width: 566px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  .btn-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .getApp-btn {
+    margin: 0;
+    margin-bottom: 20px;
   }
 }
+/* END - Magnus */
 
 /* TRELLO BREAKPOINTS */
 
@@ -574,6 +624,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 @media (max-width: 425px) {
   .stats {
