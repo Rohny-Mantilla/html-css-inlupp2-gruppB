@@ -522,7 +522,6 @@ body {
   .about-container, .contact-container {
     max-width: 1140px;
   }
-  
 }
 @media (max-width: 1200px) {
   .about-container, .contact-container {
@@ -549,34 +548,38 @@ body {
     max-width: 720px;
   }
 }
-/* END - MAGNUS */
 @media (max-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-  /* START - Magnus */
   .about-container, .contact-container {
     max-width: 540px;
   }
   .contact-grid {
     grid-template-columns: 1fr;
   }
-  /* END - Magnus */
 }
-/* END - HEADER */
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 320px;
+@media(max-width: 576px) {
+  .text-wrapper {
+    max-width: 566px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  .btn-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .getApp-btn {
+    margin: 0;
+    margin-bottom: 20px;
   }
 }
+/* END - Magnus */
 
 
 /* TRELLO BREAKPOINTS */
 
 @media (max-width: 768px) {
-  .stats {
-  }
+  /* .stats {
+  } */
   .element1 {
     grid-column: 1/2;
   }
