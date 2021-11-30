@@ -139,6 +139,7 @@ body {
   list-style: none;
   justify-content: space-between;
   align-items: center;
+  /* border: 2px solid black; */
 }
 .top-nav-brand {
   font-family: 'Poppins', sans-serif;
@@ -465,6 +466,7 @@ body {
 @media (max-width: 2000px) {
   .container {
     max-width: 1300px;
+    border: 2px solid pink;
   }
   .header-bg {
     background-repeat: no-repeat;
@@ -475,6 +477,7 @@ body {
 @media (max-width: 1400px) {
   .container {
     max-width: 1140px;
+    border: 2px solid green;
   }
   /* .header-bg {
     background-repeat: no-repeat;
@@ -485,6 +488,7 @@ body {
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
+    border: 2px solid blue;
   }
   /* .header-bg {
     background-repeat: no-repeat;
@@ -496,6 +500,7 @@ body {
 
   .container {
     max-width: 720px;
+    border: 2px solid yellow;
   }
   .top-nav .container, 
   .nav-bar .container {
